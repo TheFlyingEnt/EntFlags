@@ -1,0 +1,48 @@
+{
+    "gui_light": "front",
+    "textures": {
+        "particle": "block/oak_planks"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -1, -90, 0 ],
+            "translation": [ 0, 2, 0.5],
+            "scale":[ 0.75, 0.75, 0.75]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -1, 90, 0 ],
+            "translation": [ 0, 2, 0.5],
+            "scale":[ 0.75, 0.75, 0.75]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 2.25, 0, 0],
+            "scale":[ 0.375, 0.375, 0.375]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, -90, 0 ],
+            "translation": [ 2.25, 0, 0],
+            "scale":[ 0.375, 0.375, 0.375]
+        },
+        "gui": {
+            "rotation": [ 30, 20, 0 ],
+            "translation": [ -4.5, -3.25, 0],
+            "scale":[ 0.26625, 0.26625, 0.26625]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 1, 0],
+            "scale":[ 0.25, 0.25, 0.25]
+        },
+        "head": {
+            "rotation": [ 0, -90, 0 ],
+            "translation": [ 0, 16, 7],
+            "scale":[ 1.5, 1.5, 1.5 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.25, 0.25, 0.25]
+        }
+    }
+}

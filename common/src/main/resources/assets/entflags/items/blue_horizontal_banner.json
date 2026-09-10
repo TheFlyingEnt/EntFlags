@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/template_war_banner",
+    "model": {
+      "type": "entflags:horizontal_banner",
+      "color": "blue"
+    }
+  }
+}
