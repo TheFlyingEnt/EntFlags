@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "entflags:lime_horizontal_banner"
+      }
+    },
+    "has_lime_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:lime_wool" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe", "has_lime_wool" ]
+  ],
+  "rewards": {
+    "recipes": [ "entflags:lime_horizontal_banner" ]
+  }
+}

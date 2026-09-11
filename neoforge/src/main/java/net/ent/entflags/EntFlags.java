@@ -6,6 +6,7 @@ import net.ent.entflags.registry.ModBlockEntities;
 import net.ent.entflags.registry.ModBlocks;
 import net.ent.entflags.registry.ModCreativeTab;
 import net.ent.entflags.registry.ModItems;
+import net.ent.entflags.registry.ModRecipes;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -36,6 +37,7 @@ public class EntFlags {
 		event.register(Registries.BLOCK, helper -> ModBlocks.registerBlocks(helper::register));
 		event.register(Registries.ITEM, helper -> ModItems.registerItems(helper::register));
 		event.register(Registries.BLOCK_ENTITY_TYPE, helper -> ModBlockEntities.registerBlockEntities(helper::register));
+		event.register(Registries.RECIPE_SERIALIZER, helper -> ModRecipes.registerRecipeSerializers(helper::register));
 	}
 
 	private void onBuildCreativeTab(BuildCreativeModeTabContentsEvent event) {

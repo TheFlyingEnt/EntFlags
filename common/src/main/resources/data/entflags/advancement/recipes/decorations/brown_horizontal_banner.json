@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "entflags:brown_horizontal_banner"
+      }
+    },
+    "has_brown_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:brown_wool" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe", "has_brown_wool" ]
+  ],
+  "rewards": {
+    "recipes": [ "entflags:brown_horizontal_banner" ]
+  }
+}

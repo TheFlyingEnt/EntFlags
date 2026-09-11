@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "entflags:green_horizontal_banner"
+      }
+    },
+    "has_green_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:green_wool" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [ "has_the_recipe", "has_green_wool" ]
+  ],
+  "rewards": {
+    "recipes": [ "entflags:green_horizontal_banner" ]
+  }
+}
