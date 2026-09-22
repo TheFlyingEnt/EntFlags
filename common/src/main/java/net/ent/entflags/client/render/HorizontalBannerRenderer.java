@@ -131,12 +131,19 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 	) {
 		poseStack.pushPose();
 		poseStack.translate(0.5F, 0.0F, 0.5F);
-		poseStack.mulPose(Axis.YP.rotationDegrees(angle));
+		poseStack.rotate(Axis.YP.rotationDegrees(angle));
 		poseStack.scale(SIZE, -SIZE, -SIZE);
 		SpriteId sprite = Sheets.BANNER_BASE;
-		submitNodeCollector.submitModel(model, Unit.INSTANCE, poseStack, lightCoords, overlayCoords, -1, sprite, sprites, outlineColor, breakProgress);
-		submitNodeCollector.submitModel(flagModel, phase, poseStack, lightCoords, overlayCoords, -1, sprite, sprites, outlineColor, breakProgress);
-		submitPatterns(sprites, poseStack, submitNodeCollector, lightCoords, overlayCoords, flagModel, phase, baseColor, patterns, breakProgress);
+		submitNodeCollector.submitModel(model, Unit.INSTANCE, poseStack, lightCoords, overlayCoords, -1, sprite, sprites, outlineColor);
+		submitNodeCollector.submitModel(flagModel, phase, poseStack, lightCoords, overlayCoords, -1, sprite, sprites, outlineColor);
+		if (breakProgress != null) {
+			int overlayOrder = patterns.layers().size() + 2;
+			submitNodeCollector.order(overlayOrder)
+				.submitCrumblingOverlay(model, Unit.INSTANCE, poseStack, sprite.renderType(model.renderType()), lightCoords, overlayCoords, -1, breakProgress);
+			submitNodeCollector.order(overlayOrder)
+				.submitCrumblingOverlay(flagModel, phase, poseStack, sprite.renderType(flagModel.renderType()), lightCoords, overlayCoords, -1, breakProgress);
+		}
+		submitPatterns(sprites, poseStack, submitNodeCollector, lightCoords, overlayCoords, flagModel, phase, baseColor, patterns);
 		poseStack.popPose();
 	}
 
@@ -149,15 +156,14 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 		Model<S> flagModel,
 		S state,
 		DyeColor baseColor,
-		BannerPatternLayers patterns,
-		ModelFeatureRenderer.@Nullable CrumblingOverlay breakProgress
+		BannerPatternLayers patterns
 	) {
-		submitPatternLayer(sprites, poseStack, submitNodeCollector, lightCoords, overlayCoords, flagModel, state, Sheets.BANNER_PATTERN_BASE, baseColor, breakProgress);
+		submitPatternLayer(sprites, poseStack, submitNodeCollector.order(1), lightCoords, overlayCoords, flagModel, state, Sheets.BANNER_PATTERN_BASE, baseColor);
 
 		for (int i = 0; i < 16 && i < patterns.layers().size(); i++) {
 			BannerPatternLayers.Layer layer = patterns.layers().get(i);
 			SpriteId sprite = Sheets.getBannerSprite(layer.pattern());
-			submitPatternLayer(sprites, poseStack, submitNodeCollector.order(i + 1), lightCoords, overlayCoords, flagModel, state, sprite, layer.color(), null);
+			submitPatternLayer(sprites, poseStack, submitNodeCollector.order(i + 2), lightCoords, overlayCoords, flagModel, state, sprite, layer.color());
 		}
 	}
 
@@ -170,12 +176,11 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 		Model<S> flagModel,
 		S state,
 		SpriteId sprite,
-		DyeColor color,
-		ModelFeatureRenderer.@Nullable CrumblingOverlay breakProgress
+		DyeColor color
 	) {
 		int diffuseColor = color.getTextureDiffuseColor();
 		submitNodeCollector.submitModel(
-			flagModel, state, poseStack, sprite.renderType(RenderTypes::bannerPattern), lightCoords, overlayCoords, diffuseColor, sprites.get(sprite), 0, breakProgress
+			flagModel, state, poseStack, sprite.renderType(RenderTypes::bannerPattern), lightCoords, overlayCoords, diffuseColor, sprites.get(sprite), 0
 		);
 	}
 

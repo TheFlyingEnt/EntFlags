@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "entflags:red_horizontal_banner"
+        "recipes": [ "entflags:red_horizontal_banner" ]
       }
     },
     "has_red_wool": {

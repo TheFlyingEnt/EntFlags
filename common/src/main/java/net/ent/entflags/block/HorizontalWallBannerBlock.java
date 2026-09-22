@@ -2,9 +2,6 @@ package net.ent.entflags.block;
 
 import java.util.Map;
 
-import com.mojang.serialization.MapCodec;
-import com.mojang.serialization.codecs.RecordCodecBuilder;
-
 import net.ent.entflags.block.entity.HorizontalBannerBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -30,16 +27,8 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class HorizontalWallBannerBlock extends AbstractBannerBlock {
-	public static final MapCodec<HorizontalWallBannerBlock> CODEC = RecordCodecBuilder.mapCodec(
-		instance -> instance.group(DyeColor.CODEC.fieldOf("color").forGetter(AbstractBannerBlock::getColor), propertiesCodec()).apply(instance, HorizontalWallBannerBlock::new)
-	);
 	public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
 	private static final Map<Direction, VoxelShape> SHAPES = Shapes.rotateHorizontal(Block.boxZ(6.0, 0.0, 16.5, 14.0, 16.0));
-
-	@Override
-	public MapCodec<HorizontalWallBannerBlock> codec() {
-		return CODEC;
-	}
 
 	public HorizontalWallBannerBlock(DyeColor dyeColor, BlockBehaviour.Properties properties) {
 		super(dyeColor, properties);

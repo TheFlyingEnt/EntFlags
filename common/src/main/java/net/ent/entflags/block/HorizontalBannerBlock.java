@@ -3,8 +3,6 @@ package net.ent.entflags.block;
 import java.util.Map;
 
 import com.google.common.collect.Maps;
-import com.mojang.serialization.MapCodec;
-import com.mojang.serialization.codecs.RecordCodecBuilder;
 
 import net.ent.entflags.block.entity.HorizontalBannerBlockEntity;
 import net.minecraft.core.BlockPos;
@@ -31,17 +29,9 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class HorizontalBannerBlock extends AbstractBannerBlock {
-	public static final MapCodec<HorizontalBannerBlock> CODEC = RecordCodecBuilder.mapCodec(
-		instance -> instance.group(DyeColor.CODEC.fieldOf("color").forGetter(AbstractBannerBlock::getColor), propertiesCodec()).apply(instance, HorizontalBannerBlock::new)
-	);
 	public static final IntegerProperty ROTATION = BlockStateProperties.ROTATION_16;
 	private static final Map<DyeColor, Block> BY_COLOR = Maps.<DyeColor, Block>newHashMap();
 	private static final VoxelShape SHAPE = Block.column(6.0, 0.0, 23.5);
-
-	@Override
-	public MapCodec<HorizontalBannerBlock> codec() {
-		return CODEC;
-	}
 
 	public HorizontalBannerBlock(DyeColor dyeColor, BlockBehaviour.Properties properties) {
 		super(dyeColor, properties);
