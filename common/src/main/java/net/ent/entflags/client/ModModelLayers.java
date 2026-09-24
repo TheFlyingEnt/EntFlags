@@ -36,6 +36,6 @@ public final class ModModelLayers {
 	}
 
 	private static ModelLayerLocation layer(String path, String part) {
-		return new ModelLayerLocation(new ResourceLocation(Constants.MOD_ID, path), part);
+		return new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, path), part);
 	}
 }

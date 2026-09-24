@@ -4,9 +4,11 @@ import java.util.EnumMap;
 import java.util.Map;
 
 import net.ent.entflags.Constants;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.entity.BannerPatternLayers;
 
 public final class ModItems {
 
@@ -22,7 +24,7 @@ public final class ModItems {
 			Item item = factory.create(
 				ModBlocks.STANDING.get(color),
 				ModBlocks.WALL.get(color),
-				new Item.Properties().stacksTo(16)
+				new Item.Properties().stacksTo(16).component(DataComponents.BANNER_PATTERNS, BannerPatternLayers.EMPTY)
 			);
 
 			ITEMS.put(color, item);
@@ -31,6 +33,6 @@ public final class ModItems {
 	}
 
 	private static ResourceLocation id(String path) {
-		return new ResourceLocation(Constants.MOD_ID, path);
+		return ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, path);
 	}
 }

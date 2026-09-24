@@ -23,6 +23,6 @@ public final class ModBlockEntities {
 		blocks.addAll(ModBlocks.WALL.values());
 
 		HORIZONTAL_BANNER = factory.create(blocks.toArray(new Block[0]));
-		sink.accept(new ResourceLocation(Constants.MOD_ID, "horizontal_banner"), HORIZONTAL_BANNER);
+		sink.accept(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "horizontal_banner"), HORIZONTAL_BANNER);
 	}
 }

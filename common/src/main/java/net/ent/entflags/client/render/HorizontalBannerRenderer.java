@@ -1,9 +1,6 @@
 package net.ent.entflags.client.render;
 
-import java.util.List;
-
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.datafixers.util.Pair;
 import com.mojang.math.Axis;
 
 import net.ent.entflags.block.HorizontalBannerBlock;
@@ -20,9 +17,8 @@ import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.client.resources.model.ModelBakery;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Holder;
 import net.minecraft.world.item.DyeColor;
-import net.minecraft.world.level.block.entity.BannerPattern;
+import net.minecraft.world.level.block.entity.BannerPatternLayers;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.RotationSegment;
 
@@ -61,14 +57,14 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 		BlockPos blockPos = blockEntity.getBlockPos();
 		float phase = ((float) Math.floorMod(blockPos.getX() * 7 + blockPos.getY() * 9 + blockPos.getZ() * 13 + gameTime, 100L) + partialTicks) / 100.0F;
 
-		renderBanner(poseStack, bufferSource, packedLight, packedOverlay, angle, standing, phase, blockEntity.getPatterns(), false);
+		renderBanner(poseStack, bufferSource, packedLight, packedOverlay, angle, standing, phase, blockEntity.getBaseColor(), blockEntity.getPatterns(), false);
 	}
 
 	public void renderItem(
 		PoseStack poseStack, MultiBufferSource bufferSource, int packedLight, int packedOverlay,
-		List<Pair<Holder<BannerPattern>, DyeColor>> patterns, boolean glint, float phase
+		DyeColor baseColor, BannerPatternLayers patterns, boolean glint, float phase
 	) {
-		renderBanner(poseStack, bufferSource, packedLight, packedOverlay, 0.0F, true, phase, patterns, glint);
+		renderBanner(poseStack, bufferSource, packedLight, packedOverlay, 0.0F, true, phase, baseColor, patterns, glint);
 	}
 
 	private void renderBanner(
@@ -79,7 +75,8 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 		float angle,
 		boolean standing,
 		float phase,
-		List<Pair<Holder<BannerPattern>, DyeColor>> patterns,
+		DyeColor baseColor,
+		BannerPatternLayers patterns,
 		boolean glint
 	) {
 		WarBannerModel model = standing ? this.standingModel : this.wallModel;
@@ -98,7 +95,7 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 		model.root().render(poseStack, ModelBakery.BANNER_BASE.buffer(bufferSource, RenderType::entitySolid), packedLight, packedOverlay);
 		flagModel.setupAnim(phase);
 		// Draws the cloth, then the base color and every pattern layer on top (same as vanilla banners).
-		BannerRenderer.renderPatterns(poseStack, bufferSource, packedLight, packedOverlay, flagModel.root(), ModelBakery.BANNER_BASE, true, patterns, glint);
+		BannerRenderer.renderPatterns(poseStack, bufferSource, packedLight, packedOverlay, flagModel.root(), ModelBakery.BANNER_BASE, true, baseColor, patterns, glint);
 		poseStack.popPose();
 	}
 

@@ -1,23 +1,18 @@
 package net.ent.entflags.client.render;
 
-import java.util.List;
-
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.datafixers.util.Pair;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.core.Holder;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.BannerItem;
-import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.entity.BannerBlockEntity;
-import net.minecraft.world.level.block.entity.BannerPattern;
+import net.minecraft.world.level.block.entity.BannerPatternLayers;
 
 /**
  * Animated flag for the item form (inventory, hand, item frame...). Shared by Fabric's
- * BuiltinItemRendererRegistry and Forge's BlockEntityWithoutLevelRenderer.
+ * BuiltinItemRendererRegistry and NeoForge's BlockEntityWithoutLevelRenderer.
  */
 public final class HorizontalBannerItemRenderer {
 
@@ -36,10 +31,10 @@ public final class HorizontalBannerItemRenderer {
 		}
 
 		Minecraft mc = Minecraft.getInstance();
-		float ageInTicks = (mc.level != null ? (float) mc.level.getGameTime() : 0.0F) + mc.getFrameTime();
+		float ageInTicks = (mc.level != null ? (float) mc.level.getGameTime() : 0.0F) + mc.getTimer().getGameTimeDeltaPartialTick(true);
 		float phase = (ageInTicks % 20.0F) / 20.0F;
 
-		List<Pair<Holder<BannerPattern>, DyeColor>> patterns = BannerBlockEntity.createPatterns(bannerItem.getColor(), BannerBlockEntity.getItemPatterns(stack));
-		bannerRenderer.renderItem(poseStack, bufferSource, packedLight, packedOverlay, patterns, stack.hasFoil(), phase);
+		BannerPatternLayers patterns = stack.getOrDefault(DataComponents.BANNER_PATTERNS, BannerPatternLayers.EMPTY);
+		bannerRenderer.renderItem(poseStack, bufferSource, packedLight, packedOverlay, bannerItem.getColor(), patterns, stack.hasFoil(), phase);
 	}
 }

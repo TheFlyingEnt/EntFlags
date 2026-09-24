@@ -2,19 +2,18 @@ package net.ent.entflags.block;
 
 import java.util.Map;
 
-import javax.annotation.Nullable;
-
 import com.google.common.collect.Maps;
+
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
 
 import net.ent.entflags.block.entity.HorizontalBannerBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.AbstractBannerBlock;
@@ -33,9 +32,18 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class HorizontalBannerBlock extends AbstractBannerBlock {
+	public static final MapCodec<HorizontalBannerBlock> CODEC = RecordCodecBuilder.mapCodec(
+		instance -> instance.group(DyeColor.CODEC.fieldOf("color").forGetter(AbstractBannerBlock::getColor), propertiesCodec())
+			.apply(instance, HorizontalBannerBlock::new)
+	);
 	public static final IntegerProperty ROTATION = BlockStateProperties.ROTATION_16;
 	private static final Map<DyeColor, Block> BY_COLOR = Maps.<DyeColor, Block>newHashMap();
 	private static final VoxelShape SHAPE = Block.box(5.0, 0.0, 5.0, 11.0, 23.5, 11.0);
+
+	@Override
+	public MapCodec<HorizontalBannerBlock> codec() {
+		return CODEC;
+	}
 
 	public HorizontalBannerBlock(DyeColor dyeColor, BlockBehaviour.Properties properties) {
 		super(dyeColor, properties);
@@ -96,14 +104,9 @@ public class HorizontalBannerBlock extends AbstractBannerBlock {
 		return new HorizontalBannerBlockEntity(pos, state);
 	}
 
-	// AbstractBannerBlock only handles vanilla BannerBlockEntity for these two, so redo them for ours.
 	@Override
-	public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
-		HorizontalBannerBlockEntity.onPlaced(level, pos, stack);
-	}
-
-	@Override
-	public ItemStack getCloneItemStack(BlockGetter level, BlockPos pos, BlockState state) {
+	// AbstractBannerBlock only handles vanilla BannerBlockEntity here, so redo it for ours.
+	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
 		return HorizontalBannerBlockEntity.cloneItem(level, pos, () -> super.getCloneItemStack(level, pos, state));
 	}
 }

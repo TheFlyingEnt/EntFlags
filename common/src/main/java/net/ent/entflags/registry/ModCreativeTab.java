@@ -41,10 +41,10 @@ public final class ModCreativeTab {
 	}
 
 	private static ResourceKey<CreativeModeTab> vanillaTab(String path) {
-		return ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(path));
+		return ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.withDefaultNamespace(path));
 	}
 
-	public static final ResourceLocation ID = new ResourceLocation(net.ent.entflags.Constants.MOD_ID, "flags");
+	public static final ResourceLocation ID = ResourceLocation.fromNamespaceAndPath(net.ent.entflags.Constants.MOD_ID, "flags");
 	public static final ResourceKey<CreativeModeTab> TAB_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ID);
 
 	/*public static void registerCreativeTab(Registration.CreativeTabSink sink) {

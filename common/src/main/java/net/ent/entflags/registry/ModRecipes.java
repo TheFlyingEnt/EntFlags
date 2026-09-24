@@ -10,6 +10,6 @@ public final class ModRecipes {
 	}
 
 	public static void registerRecipeSerializers(Registration.RecipeSerializerSink sink) {
-		sink.accept(new ResourceLocation(Constants.MOD_ID, "flag_crafting"), FlagCraftingRecipe.SERIALIZER);
+		sink.accept(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "flag_crafting"), FlagCraftingRecipe.SERIALIZER);
 	}
 }

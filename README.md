@@ -59,8 +59,8 @@ Hold a Flag in your hand and your character raises it like a standard-bearer &md
 
 | Loader | Minecraft |
 | --- | --- |
-| NeoForge | 26.3 |
-| Fabric | 26.3, 1.20.1 |
+| NeoForge | 26.3, 1.21.1 |
+| Fabric | 26.3, 1.21.1, 1.20.1 |
 | Forge | 1.20.1 |
 
 #
