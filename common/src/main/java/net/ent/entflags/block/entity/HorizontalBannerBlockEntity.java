@@ -109,8 +109,6 @@ public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable
 		return this.baseColor;
 	}
 
-	// Patterns + name come from the item's components when placed (BlockItem applies them) and go back
-	// onto the item for pick-block and the loot table's copy_components.
 	@Override
 	protected void applyImplicitComponents(BlockEntity.DataComponentInput input) {
 		super.applyImplicitComponents(input);

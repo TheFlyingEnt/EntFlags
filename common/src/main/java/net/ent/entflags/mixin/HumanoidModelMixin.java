@@ -17,7 +17,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BannerItem;
 import net.minecraft.world.item.ItemStack;
 
-// 1.20.1 has no render states, so the entity is read directly here instead of via an extracted state.
 @Mixin(HumanoidModel.class)
 public class HumanoidModelMixin {
 

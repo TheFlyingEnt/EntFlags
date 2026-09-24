@@ -53,7 +53,6 @@ public class HorizontalWallBannerBlock extends AbstractBannerBlock {
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
-	// Same as vanilla WallBannerBlock: share the standing flag's name.
 	@Override
 	public String getDescriptionId() {
 		return this.asItem().getDescriptionId();
@@ -124,7 +123,6 @@ public class HorizontalWallBannerBlock extends AbstractBannerBlock {
 	}
 
 	@Override
-	// AbstractBannerBlock only handles vanilla BannerBlockEntity here, so redo it for ours.
 	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
 		return HorizontalBannerBlockEntity.cloneItem(level, pos, () -> super.getCloneItemStack(level, pos, state));
 	}

@@ -28,8 +28,7 @@ public final class ModBlocks {
 			String wallName = color.getName() + "_wall_horizontal_banner";
 
 			Block standing = new HorizontalBannerBlock(color, baseProperties());
-			// No dropsLike(standing): it resolves the standing block's loot table before it is registered, which caches
-			// minecraft:blocks/air on both blocks. The wall flag has its own loot table instead.
+
 			Block wall = new HorizontalWallBannerBlock(color, baseProperties());
 
 			STANDING.put(color, standing);

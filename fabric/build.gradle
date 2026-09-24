@@ -10,7 +10,6 @@ dependencies {
     }
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
-    // javax.annotation.Nullable for the common code; NeoForge gets it from Minecraft's libraries, Loom doesn't.
     compileOnly "com.google.code.findbugs:jsr305:3.0.2"
 }
 

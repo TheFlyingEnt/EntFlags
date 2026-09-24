@@ -86,7 +86,6 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 		poseStack.translate(0.5F, 0.0F, 0.5F);
 		poseStack.mulPose(Axis.YP.rotationDegrees(angle));
 		poseStack.scale(SIZE, -SIZE, -SIZE);
-		// Layer transform (see ModModelLayers).
 		if (!standing) {
 			poseStack.translate(0.0F, 0.0F, ModModelLayers.WALL_LAYER_Z_OFFSET / 16.0F);
 		}
@@ -94,12 +93,10 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 
 		model.root().render(poseStack, ModelBakery.BANNER_BASE.buffer(bufferSource, RenderType::entitySolid), packedLight, packedOverlay);
 		flagModel.setupAnim(phase);
-		// Draws the cloth, then the base color and every pattern layer on top (same as vanilla banners).
 		BannerRenderer.renderPatterns(poseStack, bufferSource, packedLight, packedOverlay, flagModel.root(), ModelBakery.BANNER_BASE, true, baseColor, patterns, glint);
 		poseStack.popPose();
 	}
 
-	// The flag reaches well above its own block section, so don't let section culling hide it.
 	@Override
 	public boolean shouldRenderOffScreen(HorizontalBannerBlockEntity blockEntity) {
 		return true;

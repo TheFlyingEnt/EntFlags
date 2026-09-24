@@ -29,7 +29,6 @@ public final class EntFlagsNeoForgeClient {
 		event.registerBlockEntityRenderer(ModBlockEntities.HORIZONTAL_BANNER, HorizontalBannerRenderer::new);
 	}
 
-	// NeoForge routes builtin/entity item models through the item's client extension BEWLR.
 	private static void onRegisterClientExtensions(RegisterClientExtensionsEvent event) {
 		event.registerItem(new IClientItemExtensions() {
 			@Override

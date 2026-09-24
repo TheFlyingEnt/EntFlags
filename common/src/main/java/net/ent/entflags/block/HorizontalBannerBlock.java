@@ -105,7 +105,6 @@ public class HorizontalBannerBlock extends AbstractBannerBlock {
 	}
 
 	@Override
-	// AbstractBannerBlock only handles vanilla BannerBlockEntity here, so redo it for ours.
 	public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
 		return HorizontalBannerBlockEntity.cloneItem(level, pos, () -> super.getCloneItemStack(level, pos, state));
 	}
