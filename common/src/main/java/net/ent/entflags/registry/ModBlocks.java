@@ -31,7 +31,8 @@ public final class ModBlocks {
 
 			Block standing = new HorizontalBannerBlock(color, baseProperties(color, standingName));
 			Block wall = new HorizontalWallBannerBlock(color, baseProperties(color, wallName)
-				.overrideDescription("block." + Constants.MOD_ID + "." + standingName));
+				.overrideDescription("block." + Constants.MOD_ID + "." + standingName)
+				.overrideLootTable(standing.getLootTable()));
 
 			STANDING.put(color, standing);
 			WALL.put(color, wall);
