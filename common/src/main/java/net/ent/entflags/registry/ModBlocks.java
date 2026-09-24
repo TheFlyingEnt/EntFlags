@@ -6,9 +6,7 @@ import java.util.Map;
 import net.ent.entflags.Constants;
 import net.ent.entflags.block.HorizontalBannerBlock;
 import net.ent.entflags.block.HorizontalWallBannerBlock;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.Identifier;
-import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -29,9 +27,8 @@ public final class ModBlocks {
 			String standingName = color.getName() + "_horizontal_banner";
 			String wallName = color.getName() + "_wall_horizontal_banner";
 
-			Block standing = new HorizontalBannerBlock(color, baseProperties(color, standingName));
-			Block wall = new HorizontalWallBannerBlock(color, baseProperties(color, wallName)
-				.overrideDescription("block." + Constants.MOD_ID + "." + standingName));
+			Block standing = new HorizontalBannerBlock(color, baseProperties());
+			Block wall = new HorizontalWallBannerBlock(color, baseProperties());
 
 			STANDING.put(color, standing);
 			WALL.put(color, wall);
@@ -41,20 +38,18 @@ public final class ModBlocks {
 		}
 	}
 
-	private static BlockBehaviour.Properties baseProperties(DyeColor color, String path) {
-		ResourceKey<Block> key = ResourceKey.create(Registries.BLOCK, id(path));
+	private static BlockBehaviour.Properties baseProperties() {
 		return BlockBehaviour.Properties.of()
-			.setId(key)
 			.mapColor(MapColor.WOOD)
 			.forceSolidOn()
 			.instrument(NoteBlockInstrument.BASS)
-			.noCollision()
+			.noCollission()
 			.strength(1.0F)
 			.sound(SoundType.WOOD)
 			.ignitedByLava();
 	}
 
-	private static Identifier id(String path) {
-		return Identifier.fromNamespaceAndPath(Constants.MOD_ID, path);
+	private static ResourceLocation id(String path) {
+		return new ResourceLocation(Constants.MOD_ID, path);
 	}
 }

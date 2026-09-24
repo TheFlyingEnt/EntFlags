@@ -1,6 +1,5 @@
 package net.ent.entflags.client.model;
 
-import net.minecraft.client.model.Model;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.CubeDeformation;
@@ -8,19 +7,23 @@ import net.minecraft.client.model.geom.builders.CubeListBuilder;
 import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.PartDefinition;
-import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.util.Mth;
 
-public class WarBannerFlagModel extends Model<Float> {
+public class WarBannerFlagModel {
+	private final ModelPart root;
 	private final ModelPart flag;
 	private final ModelPart flag_middle;
 	private final ModelPart flag_end;
 
 	public WarBannerFlagModel(ModelPart modelPart) {
-		super(modelPart, RenderTypes::entitySolid);
+		this.root = modelPart;
 		this.flag = modelPart.getChild("flag");
 		this.flag_middle = modelPart.getChild("flag").getChild("flag_middle");
 		this.flag_end = modelPart.getChild("flag").getChild("flag_middle").getChild("flag_end");
+	}
+
+	public ModelPart root() {
+		return this.root;
 	}
 
 	public static LayerDefinition createFlagLayer(boolean standing) {
@@ -40,9 +43,7 @@ public class WarBannerFlagModel extends Model<Float> {
 		return LayerDefinition.create(meshDefinition, 64, 64);
 	}
 
-	@Override
-	public void setupAnim(Float phase) {
-		super.setupAnim(phase);
+	public void setupAnim(float phase) {
 		this.flag.xRot = (-0.0125F + 0.01F * Mth.cos((float) (Math.PI * 2) * phase)) * (float) Math.PI;
 		this.flag_middle.xRot = (0.0125F - 0.01F * Mth.cos((float) (Math.PI * 2) * phase)) * (float) Math.PI;
 		this.flag_end.xRot = (-0.0125F + 0.01F * Mth.cos((float) (Math.PI * 2) * phase)) * (float) Math.PI;
