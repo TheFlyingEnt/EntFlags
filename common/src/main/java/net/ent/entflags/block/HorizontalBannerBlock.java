@@ -2,17 +2,21 @@ package net.ent.entflags.block;
 
 import java.util.Map;
 
+import javax.annotation.Nullable;
+
 import com.google.common.collect.Maps;
 
 import net.ent.entflags.block.entity.HorizontalBannerBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.ScheduledTickAccess;
 import net.minecraft.world.level.block.AbstractBannerBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -31,7 +35,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 public class HorizontalBannerBlock extends AbstractBannerBlock {
 	public static final IntegerProperty ROTATION = BlockStateProperties.ROTATION_16;
 	private static final Map<DyeColor, Block> BY_COLOR = Maps.<DyeColor, Block>newHashMap();
-	private static final VoxelShape SHAPE = Block.column(6.0, 0.0, 23.5);
+	private static final VoxelShape SHAPE = Block.box(5.0, 0.0, 5.0, 11.0, 23.5, 11.0);
 
 	public HorizontalBannerBlock(DyeColor dyeColor, BlockBehaviour.Properties properties) {
 		super(dyeColor, properties);
@@ -40,12 +44,12 @@ public class HorizontalBannerBlock extends AbstractBannerBlock {
 	}
 
 	@Override
-	protected boolean canSurvive(BlockState blockState, LevelReader levelReader, BlockPos blockPos) {
+	public boolean canSurvive(BlockState blockState, LevelReader levelReader, BlockPos blockPos) {
 		return levelReader.getBlockState(blockPos.below()).isSolid();
 	}
 
 	@Override
-	protected VoxelShape getShape(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos, CollisionContext collisionContext) {
+	public VoxelShape getShape(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos, CollisionContext collisionContext) {
 		return SHAPE;
 	}
 
@@ -55,29 +59,27 @@ public class HorizontalBannerBlock extends AbstractBannerBlock {
 	}
 
 	@Override
-	protected BlockState updateShape(
+	public BlockState updateShape(
 		BlockState blockState,
-		LevelReader levelReader,
-		ScheduledTickAccess scheduledTickAccess,
-		BlockPos blockPos,
 		Direction direction,
-		BlockPos blockPos2,
-		BlockState blockState2,
-		RandomSource randomSource
+		BlockState neighborState,
+		LevelAccessor level,
+		BlockPos blockPos,
+		BlockPos neighborPos
 	) {
-		return direction == Direction.DOWN && !blockState.canSurvive(levelReader, blockPos)
+		return direction == Direction.DOWN && !blockState.canSurvive(level, blockPos)
 			? Blocks.AIR.defaultBlockState()
-			: super.updateShape(blockState, levelReader, scheduledTickAccess, blockPos, direction, blockPos2, blockState2, randomSource);
+			: super.updateShape(blockState, direction, neighborState, level, blockPos, neighborPos);
 	}
 
 	@Override
-	protected BlockState rotate(BlockState blockState, Rotation rotation) {
-		return blockState.setValue(ROTATION, rotation.rotate((Integer) blockState.getValue(ROTATION), 16));
+	public BlockState rotate(BlockState blockState, Rotation rotation) {
+		return blockState.setValue(ROTATION, rotation.rotate(blockState.getValue(ROTATION), 16));
 	}
 
 	@Override
-	protected BlockState mirror(BlockState blockState, Mirror mirror) {
-		return blockState.setValue(ROTATION, mirror.mirror((Integer) blockState.getValue(ROTATION), 16));
+	public BlockState mirror(BlockState blockState, Mirror mirror) {
+		return blockState.setValue(ROTATION, mirror.mirror(blockState.getValue(ROTATION), 16));
 	}
 
 	@Override
@@ -86,11 +88,22 @@ public class HorizontalBannerBlock extends AbstractBannerBlock {
 	}
 
 	public static Block byColor(DyeColor dyeColor) {
-		return (Block) BY_COLOR.getOrDefault(dyeColor, BY_COLOR.get(DyeColor.WHITE));
+		return BY_COLOR.getOrDefault(dyeColor, BY_COLOR.get(DyeColor.WHITE));
 	}
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
 		return new HorizontalBannerBlockEntity(pos, state);
+	}
+
+	// AbstractBannerBlock only handles vanilla BannerBlockEntity for these two, so redo them for ours.
+	@Override
+	public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
+		HorizontalBannerBlockEntity.onPlaced(level, pos, stack);
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(BlockGetter level, BlockPos pos, BlockState state) {
+		return HorizontalBannerBlockEntity.cloneItem(level, pos, () -> super.getCloneItemStack(level, pos, state));
 	}
 }

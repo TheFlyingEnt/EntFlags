@@ -4,14 +4,9 @@ import java.util.EnumMap;
 import java.util.Map;
 
 import net.ent.entflags.Constants;
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.Identifier;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.BannerItem;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.entity.BannerPatternLayers;
 
 public final class ModItems {
 
@@ -20,18 +15,14 @@ public final class ModItems {
 	private ModItems() {
 	}
 
-	public static void registerItems(Registration.ItemSink sink) {
+	public static void registerItems(Registration.FlagItemFactory factory, Registration.ItemSink sink) {
 		for (DyeColor color : DyeColor.values()) {
 			String name = color.getName() + "_horizontal_banner";
-			ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, id(name));
 
-			Item item = new BannerItem(
+			Item item = factory.create(
 				ModBlocks.STANDING.get(color),
 				ModBlocks.WALL.get(color),
-				new Item.Properties()
-					.setId(key)
-					.stacksTo(16)
-					.component(DataComponents.BANNER_PATTERNS, BannerPatternLayers.EMPTY)
+				new Item.Properties().stacksTo(16)
 			);
 
 			ITEMS.put(color, item);
@@ -39,7 +30,7 @@ public final class ModItems {
 		}
 	}
 
-	private static Identifier id(String path) {
-		return Identifier.fromNamespaceAndPath(Constants.MOD_ID, path);
+	private static ResourceLocation id(String path) {
+		return new ResourceLocation(Constants.MOD_ID, path);
 	}
 }

@@ -9,6 +9,8 @@
 <!-- NeoForge -->
 ![NeoForge](https://img.shields.io/badge/NeoForge-FA6A3C?style=for-the-badge&logo=neoforge&logoColor=white)<!-- Fabric -->
 ![Fabric](https://img.shields.io/badge/Fabric-DBD0C0?style=for-the-badge&logo=fabric&logoColor=3B3B3B)
+<!-- Forge -->
+![Forge](https://img.shields.io/badge/Forge-DFA86A?style=for-the-badge&logoColor=white)
 
 <p align="center">
 <b>Adds a new horizontal banner &mdash; the Flag &mdash; to Minecraft, with full support for the existing banner pattern system.</b>
@@ -57,8 +59,9 @@ Hold a Flag in your hand and your character raises it like a standard-bearer &md
 
 | Loader | Minecraft |
 | --- | --- |
-| NeoForge | 26.2 |
-| Fabric | 26.2 |
+| NeoForge | 26.3 |
+| Fabric | 26.3, 1.20.1 |
+| Forge | 1.20.1 |
 
 #
 <br>

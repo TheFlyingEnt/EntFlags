@@ -1,6 +1,5 @@
 package net.ent.entflags.client.model;
 
-import net.minecraft.client.model.Model;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.CubeDeformation;
@@ -8,18 +7,22 @@ import net.minecraft.client.model.geom.builders.CubeListBuilder;
 import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.PartDefinition;
-import net.minecraft.client.renderer.rendertype.RenderTypes;
-import net.minecraft.util.Unit;
 
-public class WarBannerModel extends Model<Unit> {
+public class WarBannerModel {
 	public static final int BANNER_WIDTH = 20;
 	public static final int BANNER_HEIGHT = 40;
 	public static final String FLAG = "flag";
 	private static final String POLE = "pole";
 	private static final String BAR = "bar";
 
+	private final ModelPart root;
+
 	public WarBannerModel(ModelPart modelPart) {
-		super(modelPart, RenderTypes::entitySolid);
+		this.root = modelPart;
+	}
+
+	public ModelPart root() {
+		return this.root;
 	}
 
 	public static LayerDefinition createBodyLayer(boolean standing) {

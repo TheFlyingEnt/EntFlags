@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.BannerBlock;
 
 
 public final class ModCreativeTab {
@@ -29,7 +29,7 @@ public final class ModCreativeTab {
 
 	public static ItemStack bannerAnchor() {
 		DyeColor last = GAMEPLAY_COLOR_ORDER.get(GAMEPLAY_COLOR_ORDER.size() - 1);
-		return new ItemStack(Items.BANNER.pick(last));
+		return new ItemStack(BannerBlock.byColor(last));
 	}
 
 	public static List<ItemStack> flagStacks() {
@@ -41,12 +41,12 @@ public final class ModCreativeTab {
 	}
 
 	private static ResourceKey<CreativeModeTab> vanillaTab(String path) {
-		return ResourceKey.create(Registries.CREATIVE_MODE_TAB, Identifier.withDefaultNamespace(path));
+		return ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(path));
 	}
 
-	public static final Identifier ID = Identifier.fromNamespaceAndPath(net.ent.entflags.Constants.MOD_ID, "flags");
+	public static final ResourceLocation ID = new ResourceLocation(net.ent.entflags.Constants.MOD_ID, "flags");
 	public static final ResourceKey<CreativeModeTab> TAB_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ID);
-	
+
 	/*public static void registerCreativeTab(Registration.CreativeTabSink sink) {
 	    CreativeModeTab tab = CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
 	        .title(net.minecraft.network.chat.Component.translatable("itemGroup." + net.ent.entflags.Constants.MOD_ID + ".flags"))
