@@ -96,7 +96,6 @@ public class HorizontalBannerBlock extends AbstractBannerBlock {
 		return new HorizontalBannerBlockEntity(pos, state);
 	}
 
-	// AbstractBannerBlock only handles vanilla BannerBlockEntity for these two, so redo them for ours.
 	@Override
 	public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
 		HorizontalBannerBlockEntity.onPlaced(level, pos, stack);

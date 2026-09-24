@@ -17,7 +17,6 @@ public class HorizontalBannerBEWLR extends BlockEntityWithoutLevelRenderer {
 		super(mc.getBlockEntityRenderDispatcher(), mc.getEntityModels());
 	}
 
-	// Created on first use: items are constructed long before Minecraft's renderers exist.
 	public static HorizontalBannerBEWLR get() {
 		if (instance == null) {
 			instance = new HorizontalBannerBEWLR(Minecraft.getInstance());

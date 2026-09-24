@@ -26,16 +26,6 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.ShapedRecipe;
 import net.minecraft.world.level.block.BannerBlock;
 
-/**
- * Per-color flag recipe:
- * <pre>
- * # # #   (wool)
- * B # #   (banner, wool, wool)
- * S       (stick)
- * </pre>
- * A plain ShapedRecipe gives the recipe book, ghost preview and placement for free; assemble() additionally
- * copies the banner's patterns and custom name onto the flag.
- */
 public class FlagCraftingRecipe extends ShapedRecipe {
 
 	public static final RecipeSerializer<FlagCraftingRecipe> SERIALIZER = new Serializer();

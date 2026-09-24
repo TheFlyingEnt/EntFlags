@@ -84,7 +84,6 @@ public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable
 		}
 
 		ListTag patternList = tag.getList(TAG_PATTERNS, Tag.TAG_COMPOUND);
-		// Keep "no patterns" as null so an empty list is never saved (and copied onto dropped items by the loot table).
 		this.itemPatterns = patternList.isEmpty() ? null : patternList;
 		this.patterns = null;
 	}
@@ -99,7 +98,6 @@ public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable
 		return this.saveWithoutMetadata();
 	}
 
-	/** Base color first, then each pattern layer, in the shape BannerRenderer.renderPatterns expects. */
 	public List<Pair<Holder<BannerPattern>, DyeColor>> getPatterns() {
 		if (this.patterns == null) {
 			this.patterns = BannerBlockEntity.createPatterns(this.baseColor, this.itemPatterns);
@@ -117,10 +115,6 @@ public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable
 		return itemStack;
 	}
 
-	/**
-	 * Writes BlockEntityTag.Patterns exactly like the loot table's copy_nbt does (no BlockEntityTag.id, nothing when
-	 * empty) so crafted, dropped and pick-blocked flags have identical NBT and stack together.
-	 */
 	public static void setItemPatterns(ItemStack stack, @Nullable ListTag patterns) {
 		if (patterns != null && !patterns.isEmpty()) {
 			stack.getOrCreateTagElement(BlockItem.BLOCK_ENTITY_TAG).put(TAG_PATTERNS, patterns.copy());
@@ -131,8 +125,6 @@ public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable
 		return this.baseColor;
 	}
 
-	// Mirrors AbstractBannerBlock.setPlacedBy. Server-side patterns arrive through BlockItem's BlockEntityTag
-	// handling; the client copies them straight away so the flag doesn't render blank until the server syncs.
 	public static void onPlaced(Level level, BlockPos pos, ItemStack stack) {
 		if (!(level.getBlockEntity(pos) instanceof HorizontalBannerBlockEntity banner)) {
 			return;

@@ -17,11 +17,6 @@ public final class ModModelLayers {
 	public static final ModelLayerLocation WAR_STANDING_BANNER_FLAG = layer("war_standing_banner_flag", "flag");
 	public static final ModelLayerLocation WAR_WALL_BANNER_FLAG = layer("war_wall_banner_flag", "flag");
 
-	/*
-	 * The newer versions baked MeshTransformer.scaling(2F) plus a (0, 24.016, 0) / (0, 24.016, -10.016) translate
-	 * into these layers. 1.20.1 has no MeshTransformer, so HorizontalBannerRenderer applies the equivalent
-	 * transform (the scaling's own -24.016 y-shift cancels the +24.016) when it renders the parts.
-	 */
 	public static final float LAYER_SCALE = 2.0F;
 	public static final float WALL_LAYER_Z_OFFSET = -10.016F;
 

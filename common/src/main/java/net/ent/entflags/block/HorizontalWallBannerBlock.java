@@ -45,7 +45,6 @@ public class HorizontalWallBannerBlock extends AbstractBannerBlock {
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
-	// Same as vanilla WallBannerBlock: share the standing flag's name.
 	@Override
 	public String getDescriptionId() {
 		return this.asItem().getDescriptionId();
