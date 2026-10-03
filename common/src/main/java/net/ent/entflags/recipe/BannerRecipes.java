@@ -12,7 +12,6 @@ final class BannerRecipes {
 	private BannerRecipes() {
 	}
 
-	/** Copies the patterns and custom name of the banner in the grid onto the crafted flag/hanging banner. */
 	static ItemStack copyBannerData(CraftingInput input, ItemStack result) {
 		for (int i = 0; i < input.size(); i++) {
 			ItemStack stack = input.getItem(i);

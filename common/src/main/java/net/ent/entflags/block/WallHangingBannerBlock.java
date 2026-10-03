@@ -39,7 +39,6 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class WallHangingBannerBlock extends AbstractBannerBlock {
-	// The wood is stored by its full id (name + mod suffix) since two mods can share a wood name.
 	public static final MapCodec<WallHangingBannerBlock> CODEC = RecordCodecBuilder.mapCodec(
 		instance -> instance.group(
 			HangingBannerWood.CODEC.fieldOf("wood").forGetter(WallHangingBannerBlock::getWood),

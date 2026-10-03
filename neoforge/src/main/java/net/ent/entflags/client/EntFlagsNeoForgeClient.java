@@ -43,7 +43,6 @@ public final class EntFlagsNeoForgeClient {
 		}, allBannerItems());
 	}
 
-	// Flags and every registered hanging banner.
 	private static Item[] allBannerItems() {
 		List<Item> items = new ArrayList<>(ModItems.ITEMS.values());
 		ModItems.HANGING_BANNERS.values().forEach(byColor -> items.addAll(byColor.values()));

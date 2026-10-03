@@ -42,7 +42,6 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class HangingBannerBlock extends AbstractBannerBlock {
-	// The wood is stored by its full id (name + mod suffix) since two mods can share a wood name.
 	public static final MapCodec<HangingBannerBlock> CODEC = RecordCodecBuilder.mapCodec(
 		instance -> instance.group(
 			HangingBannerWood.CODEC.fieldOf("wood").forGetter(HangingBannerBlock::getWood),

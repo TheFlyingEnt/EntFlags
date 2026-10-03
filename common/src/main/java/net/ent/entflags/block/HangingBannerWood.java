@@ -43,13 +43,11 @@ public record HangingBannerWood(String name, String textureFolder, String idSuff
 		"dragon_tree", "end_lotus", "helix_tree", "jellyshroom", "lacugrove", "lucernia", "lucernia_jellyshroom",
 		"mossy_glowshroom", "pythadendron", "tenanea", "umbrella_tree");
 
-	// Gloomwood isn't in Better Nether for 1.20; its textures wait for a later port.
 	public static final String BETTER_NETHER_ID = "betternether";
 	public static final List<HangingBannerWood> BETTER_NETHER = modded(BETTER_NETHER_ID, "betternether/", "_betternether",
 		() -> BlockBehaviour.Properties.ofLegacyCopy(Blocks.CRIMSON_HANGING_SIGN),
 		"anchor_tree", "mushroom_fir", "nether_mushroom", "nether_reed", "nether_sakura", "rubeus", "stalagnate", "wart", "willow");
 
-	// Twilight Forest's mangrove clashes with vanilla's, hence the suffix.
 	public static final String TWILIGHT_FOREST_ID = "twilightforest";
 	public static final List<HangingBannerWood> TWILIGHT_FOREST = modded(TWILIGHT_FOREST_ID, "twilightforest/", "_twilightforest",
 		() -> BlockBehaviour.Properties.ofLegacyCopy(Blocks.OAK_HANGING_SIGN),
@@ -60,11 +58,9 @@ public record HangingBannerWood(String name, String textureFolder, String idSuff
 		() -> BlockBehaviour.Properties.ofLegacyCopy(Blocks.OAK_HANGING_SIGN),
 		"skyroot");
 
-	// Every wood this mod knows about (enabled or not), for looking one up by key().
 	public static final List<HangingBannerWood> ALL = java.util.stream.Stream.of(VANILLA, BIOMES_O_PLENTY, BETTER_END, BETTER_NETHER, TWILIGHT_FOREST, AETHER)
 		.flatMap(List::stream).toList();
 
-	// By key() (name + mod suffix, e.g. "willow_bop"), since two mods can share a wood name.
 	public static final Codec<HangingBannerWood> CODEC = Codec.STRING.comapFlatMap(
 		key -> ALL.stream().filter(wood -> wood.key().equals(key)).findFirst()
 			.map(DataResult::success).orElseGet(() -> DataResult.error(() -> "Unknown hanging banner wood: " + key)),

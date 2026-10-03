@@ -67,14 +67,10 @@ public final class ModCreativeTab {
 	public static final ResourceLocation ID = ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "flags");
 	public static final ResourceKey<CreativeModeTab> TAB_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ID);
 
-	/**
-	 * "Ent's Flags" tab with every flag, then every hanging banner (by wood). The flags also stay in the vanilla
-	 * Colored/Functional Blocks tabs. Each loader passes its own builder (Fabric's pages modded tabs properly).
-	 */
 	public static void registerCreativeTab(Supplier<CreativeModeTab.Builder> builderFactory, Registration.CreativeTabSink sink) {
 		CreativeModeTab tab = builderFactory.get()
 			.title(Component.translatable("itemGroup." + Constants.MOD_ID + ".flags"))
-			.icon(() -> new ItemStack(ModItems.ITEMS.get(DyeColor.WHITE)))
+			.icon(() -> new ItemStack(ModItems.ITEMS.get(DyeColor.RED)))
 			.displayItems((parameters, output) -> {
 				flagStacks().forEach(output::accept);
 				hangingBannerStacks().forEach(output::accept);
