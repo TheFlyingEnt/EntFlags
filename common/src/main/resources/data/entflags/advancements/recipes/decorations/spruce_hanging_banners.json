@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_spruce_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:spruce_white_hanging_banner",
+      "entflags:spruce_orange_hanging_banner",
+      "entflags:spruce_magenta_hanging_banner",
+      "entflags:spruce_light_blue_hanging_banner",
+      "entflags:spruce_yellow_hanging_banner",
+      "entflags:spruce_lime_hanging_banner",
+      "entflags:spruce_pink_hanging_banner",
+      "entflags:spruce_gray_hanging_banner",
+      "entflags:spruce_light_gray_hanging_banner",
+      "entflags:spruce_cyan_hanging_banner",
+      "entflags:spruce_purple_hanging_banner",
+      "entflags:spruce_blue_hanging_banner",
+      "entflags:spruce_brown_hanging_banner",
+      "entflags:spruce_green_hanging_banner",
+      "entflags:spruce_red_hanging_banner",
+      "entflags:spruce_black_hanging_banner"
+    ]
+  }
+}

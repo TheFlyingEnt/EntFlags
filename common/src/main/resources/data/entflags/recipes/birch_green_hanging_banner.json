@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:birch_hanging_banner",
+  "log": "minecraft:stripped_birch_log",
+  "color": "green",
+  "result": "entflags:birch_green_hanging_banner"
+}

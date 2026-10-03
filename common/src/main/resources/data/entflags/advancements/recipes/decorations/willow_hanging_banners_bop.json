@@ -1,0 +1,56 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomesoplenty"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:stripped_willow_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:willow_white_hanging_banner_bop",
+      "entflags:willow_orange_hanging_banner_bop",
+      "entflags:willow_magenta_hanging_banner_bop",
+      "entflags:willow_light_blue_hanging_banner_bop",
+      "entflags:willow_yellow_hanging_banner_bop",
+      "entflags:willow_lime_hanging_banner_bop",
+      "entflags:willow_pink_hanging_banner_bop",
+      "entflags:willow_gray_hanging_banner_bop",
+      "entflags:willow_light_gray_hanging_banner_bop",
+      "entflags:willow_cyan_hanging_banner_bop",
+      "entflags:willow_purple_hanging_banner_bop",
+      "entflags:willow_blue_hanging_banner_bop",
+      "entflags:willow_brown_hanging_banner_bop",
+      "entflags:willow_green_hanging_banner_bop",
+      "entflags:willow_red_hanging_banner_bop",
+      "entflags:willow_black_hanging_banner_bop"
+    ]
+  }
+}

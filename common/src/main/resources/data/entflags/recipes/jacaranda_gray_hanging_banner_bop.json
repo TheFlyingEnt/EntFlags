@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomesoplenty"
+      ]
+    }
+  ],
+  "group": "entflags:jacaranda_hanging_banner_bop",
+  "log": "biomesoplenty:stripped_jacaranda_log",
+  "color": "gray",
+  "result": "entflags:jacaranda_gray_hanging_banner_bop"
+}

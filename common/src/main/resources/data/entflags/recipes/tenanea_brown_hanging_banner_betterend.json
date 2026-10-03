@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "group": "entflags:tenanea_hanging_banner_betterend",
+  "log": "betterend:tenanea_stripped_log",
+  "color": "brown",
+  "result": "entflags:tenanea_brown_hanging_banner_betterend"
+}

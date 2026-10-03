@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:mangrove_hanging_banner",
+  "log": "minecraft:stripped_mangrove_log",
+  "color": "gray",
+  "result": "entflags:mangrove_gray_hanging_banner"
+}

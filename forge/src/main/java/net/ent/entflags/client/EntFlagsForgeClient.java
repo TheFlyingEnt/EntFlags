@@ -1,5 +1,6 @@
 package net.ent.entflags.client;
 
+import net.ent.entflags.client.render.HangingBannerRenderer;
 import net.ent.entflags.client.render.HorizontalBannerRenderer;
 import net.ent.entflags.registry.ModBlockEntities;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -21,5 +22,6 @@ public final class EntFlagsForgeClient {
 
 	private static void onRegisterRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(ModBlockEntities.HORIZONTAL_BANNER, HorizontalBannerRenderer::new);
+		event.registerBlockEntityRenderer(ModBlockEntities.HANGING_BANNER, HangingBannerRenderer::new);
 	}
 }

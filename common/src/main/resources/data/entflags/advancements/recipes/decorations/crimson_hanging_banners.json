@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_crimson_stem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:crimson_white_hanging_banner",
+      "entflags:crimson_orange_hanging_banner",
+      "entflags:crimson_magenta_hanging_banner",
+      "entflags:crimson_light_blue_hanging_banner",
+      "entflags:crimson_yellow_hanging_banner",
+      "entflags:crimson_lime_hanging_banner",
+      "entflags:crimson_pink_hanging_banner",
+      "entflags:crimson_gray_hanging_banner",
+      "entflags:crimson_light_gray_hanging_banner",
+      "entflags:crimson_cyan_hanging_banner",
+      "entflags:crimson_purple_hanging_banner",
+      "entflags:crimson_blue_hanging_banner",
+      "entflags:crimson_brown_hanging_banner",
+      "entflags:crimson_green_hanging_banner",
+      "entflags:crimson_red_hanging_banner",
+      "entflags:crimson_black_hanging_banner"
+    ]
+  }
+}

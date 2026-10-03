@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_mangrove_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:mangrove_white_hanging_banner",
+      "entflags:mangrove_orange_hanging_banner",
+      "entflags:mangrove_magenta_hanging_banner",
+      "entflags:mangrove_light_blue_hanging_banner",
+      "entflags:mangrove_yellow_hanging_banner",
+      "entflags:mangrove_lime_hanging_banner",
+      "entflags:mangrove_pink_hanging_banner",
+      "entflags:mangrove_gray_hanging_banner",
+      "entflags:mangrove_light_gray_hanging_banner",
+      "entflags:mangrove_cyan_hanging_banner",
+      "entflags:mangrove_purple_hanging_banner",
+      "entflags:mangrove_blue_hanging_banner",
+      "entflags:mangrove_brown_hanging_banner",
+      "entflags:mangrove_green_hanging_banner",
+      "entflags:mangrove_red_hanging_banner",
+      "entflags:mangrove_black_hanging_banner"
+    ]
+  }
+}

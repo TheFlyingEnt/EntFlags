@@ -1,0 +1,56 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betternether"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betternether"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betternether:rubeus_stripped_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:rubeus_white_hanging_banner_betternether",
+      "entflags:rubeus_orange_hanging_banner_betternether",
+      "entflags:rubeus_magenta_hanging_banner_betternether",
+      "entflags:rubeus_light_blue_hanging_banner_betternether",
+      "entflags:rubeus_yellow_hanging_banner_betternether",
+      "entflags:rubeus_lime_hanging_banner_betternether",
+      "entflags:rubeus_pink_hanging_banner_betternether",
+      "entflags:rubeus_gray_hanging_banner_betternether",
+      "entflags:rubeus_light_gray_hanging_banner_betternether",
+      "entflags:rubeus_cyan_hanging_banner_betternether",
+      "entflags:rubeus_purple_hanging_banner_betternether",
+      "entflags:rubeus_blue_hanging_banner_betternether",
+      "entflags:rubeus_brown_hanging_banner_betternether",
+      "entflags:rubeus_green_hanging_banner_betternether",
+      "entflags:rubeus_red_hanging_banner_betternether",
+      "entflags:rubeus_black_hanging_banner_betternether"
+    ]
+  }
+}

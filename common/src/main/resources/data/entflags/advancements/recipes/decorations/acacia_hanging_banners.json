@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_acacia_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:acacia_white_hanging_banner",
+      "entflags:acacia_orange_hanging_banner",
+      "entflags:acacia_magenta_hanging_banner",
+      "entflags:acacia_light_blue_hanging_banner",
+      "entflags:acacia_yellow_hanging_banner",
+      "entflags:acacia_lime_hanging_banner",
+      "entflags:acacia_pink_hanging_banner",
+      "entflags:acacia_gray_hanging_banner",
+      "entflags:acacia_light_gray_hanging_banner",
+      "entflags:acacia_cyan_hanging_banner",
+      "entflags:acacia_purple_hanging_banner",
+      "entflags:acacia_blue_hanging_banner",
+      "entflags:acacia_brown_hanging_banner",
+      "entflags:acacia_green_hanging_banner",
+      "entflags:acacia_red_hanging_banner",
+      "entflags:acacia_black_hanging_banner"
+    ]
+  }
+}

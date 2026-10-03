@@ -5,6 +5,7 @@ import java.util.List;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.datafixers.util.Pair;
 
+import net.ent.entflags.block.HangingBannerBlock;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.core.Holder;
@@ -15,9 +16,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BannerBlockEntity;
 import net.minecraft.world.level.block.entity.BannerPattern;
 
+// Item form of flags and hanging banners (Fabric BuiltinItemRendererRegistry / Forge BEWLR).
 public final class HorizontalBannerItemRenderer {
 
 	private static HorizontalBannerRenderer bannerRenderer;
+	private static HangingBannerRenderer hangingBannerRenderer;
 
 	private HorizontalBannerItemRenderer() {
 	}
@@ -26,8 +29,10 @@ public final class HorizontalBannerItemRenderer {
 		if (!(stack.getItem() instanceof BannerItem bannerItem)) {
 			return;
 		}
+		// Baked lazily: item renderers are set up before the entity model set exists.
 		if (bannerRenderer == null) {
 			bannerRenderer = new HorizontalBannerRenderer(Minecraft.getInstance().getEntityModels());
+			hangingBannerRenderer = new HangingBannerRenderer(Minecraft.getInstance().getEntityModels());
 		}
 
 		Minecraft mc = Minecraft.getInstance();
@@ -35,6 +40,10 @@ public final class HorizontalBannerItemRenderer {
 		float phase = (ageInTicks % 20.0F) / 20.0F;
 
 		List<Pair<Holder<BannerPattern>, DyeColor>> patterns = BannerBlockEntity.createPatterns(bannerItem.getColor(), BannerBlockEntity.getItemPatterns(stack));
-		bannerRenderer.renderItem(poseStack, bufferSource, packedLight, packedOverlay, patterns, stack.hasFoil(), phase);
+		if (bannerItem.getBlock() instanceof HangingBannerBlock) {
+			hangingBannerRenderer.renderItem(poseStack, bufferSource, packedLight, packedOverlay, bannerItem.getBlock(), patterns, stack.hasFoil());
+		} else {
+			bannerRenderer.renderItem(poseStack, bufferSource, packedLight, packedOverlay, patterns, stack.hasFoil(), phase);
+		}
 	}
 }

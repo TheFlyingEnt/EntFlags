@@ -1,5 +1,6 @@
 package net.ent.entflags.client;
 
+import net.ent.entflags.client.render.HangingBannerRenderer;
 import net.ent.entflags.client.render.HorizontalBannerItemRenderer;
 import net.ent.entflags.client.render.HorizontalBannerRenderer;
 import net.ent.entflags.registry.ModBlockEntities;
@@ -19,7 +20,9 @@ public class EntFlagsFabricClient implements ClientModInitializer {
 		ModModelLayers.registerLayers((location, supplier) -> EntityModelLayerRegistry.registerModelLayer(location, supplier::get));
 
 		BlockEntityRendererRegistry.register(ModBlockEntities.HORIZONTAL_BANNER, HorizontalBannerRenderer::new);
+		BlockEntityRendererRegistry.register(ModBlockEntities.HANGING_BANNER, HangingBannerRenderer::new);
 
 		ModItems.ITEMS.values().forEach(item -> BuiltinItemRendererRegistry.INSTANCE.register(item, HorizontalBannerItemRenderer::render));
+		ModItems.HANGING_BANNERS.values().forEach(byColor -> byColor.values().forEach(item -> BuiltinItemRendererRegistry.INSTANCE.register(item, HorizontalBannerItemRenderer::render)));
 	}
 }

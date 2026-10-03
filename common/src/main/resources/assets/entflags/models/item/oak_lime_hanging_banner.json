@@ -1,0 +1,6 @@
+{
+  "parent": "entflags:item/template_hanging_banner",
+  "textures": {
+    "particle": "minecraft:block/stripped_oak_log"
+  }
+}

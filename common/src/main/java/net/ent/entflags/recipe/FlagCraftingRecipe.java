@@ -3,19 +3,14 @@ package net.ent.entflags.recipe;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
 
-import net.ent.entflags.block.entity.HorizontalBannerBlockEntity;
 import net.ent.entflags.registry.ModItems;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.nbt.Tag;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
 import net.minecraft.world.inventory.CraftingContainer;
-import net.minecraft.world.item.BannerItem;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -50,24 +45,7 @@ public class FlagCraftingRecipe extends ShapedRecipe {
 
 	@Override
 	public ItemStack assemble(CraftingContainer container, RegistryAccess registryAccess) {
-		ItemStack result = super.assemble(container, registryAccess);
-
-		for (int i = 0; i < container.getContainerSize(); i++) {
-			ItemStack stack = container.getItem(i);
-			if (!(stack.getItem() instanceof BannerItem)) {
-				continue;
-			}
-
-			CompoundTag bannerData = BlockItem.getBlockEntityData(stack);
-			if (bannerData != null) {
-				HorizontalBannerBlockEntity.setItemPatterns(result, bannerData.getList(HorizontalBannerBlockEntity.TAG_PATTERNS, Tag.TAG_COMPOUND));
-			}
-			if (stack.hasCustomHoverName()) {
-				result.setHoverName(stack.getHoverName());
-			}
-			break;
-		}
-		return result;
+		return BannerRecipes.copyBannerData(container, super.assemble(container, registryAccess));
 	}
 
 	public DyeColor getColor() {

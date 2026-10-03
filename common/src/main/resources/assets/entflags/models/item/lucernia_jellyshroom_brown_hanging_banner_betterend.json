@@ -1,0 +1,6 @@
+{
+  "parent": "entflags:item/template_hanging_banner",
+  "textures": {
+    "particle": "betterend:block/lucernia_stripped_log_side"
+  }
+}

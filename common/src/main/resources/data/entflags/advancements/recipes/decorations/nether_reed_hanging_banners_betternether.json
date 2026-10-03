@@ -1,0 +1,56 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betternether"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betternether"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betternether:nether_reed_stem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:nether_reed_white_hanging_banner_betternether",
+      "entflags:nether_reed_orange_hanging_banner_betternether",
+      "entflags:nether_reed_magenta_hanging_banner_betternether",
+      "entflags:nether_reed_light_blue_hanging_banner_betternether",
+      "entflags:nether_reed_yellow_hanging_banner_betternether",
+      "entflags:nether_reed_lime_hanging_banner_betternether",
+      "entflags:nether_reed_pink_hanging_banner_betternether",
+      "entflags:nether_reed_gray_hanging_banner_betternether",
+      "entflags:nether_reed_light_gray_hanging_banner_betternether",
+      "entflags:nether_reed_cyan_hanging_banner_betternether",
+      "entflags:nether_reed_purple_hanging_banner_betternether",
+      "entflags:nether_reed_blue_hanging_banner_betternether",
+      "entflags:nether_reed_brown_hanging_banner_betternether",
+      "entflags:nether_reed_green_hanging_banner_betternether",
+      "entflags:nether_reed_red_hanging_banner_betternether",
+      "entflags:nether_reed_black_hanging_banner_betternether"
+    ]
+  }
+}

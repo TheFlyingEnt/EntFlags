@@ -7,7 +7,6 @@ import javax.annotation.Nullable;
 
 import com.mojang.datafixers.util.Pair;
 
-import net.ent.entflags.block.HorizontalBannerBlock;
 import net.ent.entflags.registry.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
@@ -23,10 +22,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.AbstractBannerBlock;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BannerBlockEntity;
 import net.minecraft.world.level.block.entity.BannerPattern;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 
 public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable {
 	public static final int MAX_PATTERNS = 6;
@@ -45,7 +48,12 @@ public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable
 	}
 
 	public HorizontalBannerBlockEntity(BlockPos blockPos, BlockState blockState, DyeColor dyeColor) {
-		super(ModBlockEntities.HORIZONTAL_BANNER, blockPos, blockState);
+		this(ModBlockEntities.HORIZONTAL_BANNER, blockPos, blockState, dyeColor);
+	}
+
+	// For other banner shapes (hanging banners) that share this storage but have their own block entity type.
+	protected HorizontalBannerBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState, DyeColor dyeColor) {
+		super(type, blockPos, blockState);
 		this.baseColor = dyeColor;
 	}
 
@@ -106,7 +114,8 @@ public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable
 	}
 
 	public ItemStack getItem() {
-		ItemStack itemStack = new ItemStack(HorizontalBannerBlock.byColor(this.baseColor));
+		// The block's own item (wall variants map to it too), so this works for every banner shape.
+		ItemStack itemStack = new ItemStack(this.getBlockState().getBlock());
 		setItemPatterns(itemStack, this.itemPatterns);
 
 		if (this.name != null) {
@@ -140,5 +149,18 @@ public class HorizontalBannerBlockEntity extends BlockEntity implements Nameable
 
 	public static ItemStack cloneItem(BlockGetter level, BlockPos pos, Supplier<ItemStack> fallback) {
 		return level.getBlockEntity(pos) instanceof HorizontalBannerBlockEntity banner ? banner.getItem() : fallback.get();
+	}
+
+	/**
+	 * Drops for blocks that can't ship a loot table (woods from optional mods): same result as the banner loot
+	 * tables, i.e. survives_explosion + the item with its patterns and custom name.
+	 */
+	public static List<ItemStack> codeDrops(Block block, LootParams.Builder params) {
+		Float explosionRadius = params.getOptionalParameter(LootContextParams.EXPLOSION_RADIUS);
+		if (explosionRadius != null && params.getLevel().getRandom().nextFloat() > 1.0F / explosionRadius) {
+			return List.of();
+		}
+		BlockEntity blockEntity = params.getOptionalParameter(LootContextParams.BLOCK_ENTITY);
+		return List.of(blockEntity instanceof HorizontalBannerBlockEntity banner ? banner.getItem() : new ItemStack(block));
 	}
 }

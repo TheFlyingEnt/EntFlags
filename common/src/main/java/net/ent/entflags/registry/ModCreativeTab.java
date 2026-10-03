@@ -2,12 +2,14 @@ package net.ent.entflags.registry;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.BannerBlock;
 
@@ -30,6 +32,23 @@ public final class ModCreativeTab {
 	public static ItemStack bannerAnchor() {
 		DyeColor last = GAMEPLAY_COLOR_ORDER.get(GAMEPLAY_COLOR_ORDER.size() - 1);
 		return new ItemStack(BannerBlock.byColor(last));
+	}
+
+	// Hanging banners go right after the last (pink) flag.
+	public static ItemStack flagAnchor() {
+		DyeColor last = GAMEPLAY_COLOR_ORDER.get(GAMEPLAY_COLOR_ORDER.size() - 1);
+		return new ItemStack(ModItems.ITEMS.get(last));
+	}
+
+	// Grouped by wood (in registration order), each wood in the banner color order.
+	public static List<ItemStack> hangingBannerStacks() {
+		List<ItemStack> stacks = new ArrayList<>();
+		for (Map<DyeColor, Item> byColor : ModItems.HANGING_BANNERS.values()) {
+			for (DyeColor color : GAMEPLAY_COLOR_ORDER) {
+				stacks.add(new ItemStack(byColor.get(color)));
+			}
+		}
+		return stacks;
 	}
 
 	public static List<ItemStack> flagStacks() {

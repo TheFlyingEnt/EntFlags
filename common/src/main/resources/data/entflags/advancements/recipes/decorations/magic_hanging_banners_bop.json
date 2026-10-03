@@ -1,0 +1,56 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomesoplenty"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:stripped_magic_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:magic_white_hanging_banner_bop",
+      "entflags:magic_orange_hanging_banner_bop",
+      "entflags:magic_magenta_hanging_banner_bop",
+      "entflags:magic_light_blue_hanging_banner_bop",
+      "entflags:magic_yellow_hanging_banner_bop",
+      "entflags:magic_lime_hanging_banner_bop",
+      "entflags:magic_pink_hanging_banner_bop",
+      "entflags:magic_gray_hanging_banner_bop",
+      "entflags:magic_light_gray_hanging_banner_bop",
+      "entflags:magic_cyan_hanging_banner_bop",
+      "entflags:magic_purple_hanging_banner_bop",
+      "entflags:magic_blue_hanging_banner_bop",
+      "entflags:magic_brown_hanging_banner_bop",
+      "entflags:magic_green_hanging_banner_bop",
+      "entflags:magic_red_hanging_banner_bop",
+      "entflags:magic_black_hanging_banner_bop"
+    ]
+  }
+}

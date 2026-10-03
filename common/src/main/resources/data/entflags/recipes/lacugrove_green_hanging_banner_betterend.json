@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "group": "entflags:lacugrove_hanging_banner_betterend",
+  "log": "betterend:lacugrove_stripped_log",
+  "color": "green",
+  "result": "entflags:lacugrove_green_hanging_banner_betterend"
+}

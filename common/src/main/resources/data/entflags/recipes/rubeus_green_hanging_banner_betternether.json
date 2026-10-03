@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betternether"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betternether"
+      ]
+    }
+  ],
+  "group": "entflags:rubeus_hanging_banner_betternether",
+  "log": "betternether:rubeus_stripped_log",
+  "color": "green",
+  "result": "entflags:rubeus_green_hanging_banner_betternether"
+}

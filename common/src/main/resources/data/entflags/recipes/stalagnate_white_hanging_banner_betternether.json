@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betternether"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betternether"
+      ]
+    }
+  ],
+  "group": "entflags:stalagnate_hanging_banner_betternether",
+  "log": "betternether:stalagnate_stripped_log",
+  "color": "white",
+  "result": "entflags:stalagnate_white_hanging_banner_betternether"
+}

@@ -1,0 +1,56 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:lacugrove_stripped_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:lacugrove_white_hanging_banner_betterend",
+      "entflags:lacugrove_orange_hanging_banner_betterend",
+      "entflags:lacugrove_magenta_hanging_banner_betterend",
+      "entflags:lacugrove_light_blue_hanging_banner_betterend",
+      "entflags:lacugrove_yellow_hanging_banner_betterend",
+      "entflags:lacugrove_lime_hanging_banner_betterend",
+      "entflags:lacugrove_pink_hanging_banner_betterend",
+      "entflags:lacugrove_gray_hanging_banner_betterend",
+      "entflags:lacugrove_light_gray_hanging_banner_betterend",
+      "entflags:lacugrove_cyan_hanging_banner_betterend",
+      "entflags:lacugrove_purple_hanging_banner_betterend",
+      "entflags:lacugrove_blue_hanging_banner_betterend",
+      "entflags:lacugrove_brown_hanging_banner_betterend",
+      "entflags:lacugrove_green_hanging_banner_betterend",
+      "entflags:lacugrove_red_hanging_banner_betterend",
+      "entflags:lacugrove_black_hanging_banner_betterend"
+    ]
+  }
+}
