@@ -7,7 +7,6 @@ import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 
-// Forge routes builtin/entity item models through the item's own BEWLR, so the hanging banner item has to supply one.
 public class ForgeHangingBannerItem extends HangingBannerItem {
 
 	public ForgeHangingBannerItem(Block ceilingBlock, Block wallBlock, Properties properties) {

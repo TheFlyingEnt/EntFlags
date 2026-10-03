@@ -7,9 +7,9 @@ public class CommonClass {
 
     // Debug: register a mod's hanging banners even when that mod isn't installed. 
     // IMPORTANT: Keep false for releases.
-    public static final boolean DEBUG_BOP = true;
-    public static final boolean DEBUG_BETTER_END = true;
-    public static final boolean DEBUG_BETTER_NETHER = true;
+    public static final boolean DEBUG_BOP = false;
+    public static final boolean DEBUG_BETTER_END = false;
+    public static final boolean DEBUG_BETTER_NETHER = false;
     public static final boolean DEBUG_TWILIGHT_FOREST = false;
     public static final boolean DEBUG_AETHER = false;
 
