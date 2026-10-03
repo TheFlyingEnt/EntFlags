@@ -36,10 +36,6 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-/**
- * Hanging banner on a bar sticking out of the side of a block (bar + two chains), mirroring vanilla's
- * WallHangingSignBlock. FACING is the way the banner faces; the bar runs sideways to the supporting block.
- */
 public class WallHangingBannerBlock extends AbstractBannerBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	private static final VoxelShape BAR_NORTH_SOUTH = Block.box(0.0, 14.0, 6.0, 16.0, 16.0, 10.0);
@@ -61,7 +57,6 @@ public class WallHangingBannerBlock extends AbstractBannerBlock {
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
-	// Same as vanilla wall banners/signs: share the ceiling hanging banner's name.
 	@Override
 	public String getDescriptionId() {
 		return this.asItem().getDescriptionId();
@@ -77,7 +72,6 @@ public class WallHangingBannerBlock extends AbstractBannerBlock {
 		return this.getShape(blockState, blockGetter, blockPos, CollisionContext.empty());
 	}
 
-	/** The bar needs something to hold it on its left or right side (relative to FACING). */
 	public boolean canPlace(BlockState blockState, LevelReader levelReader, BlockPos blockPos) {
 		Direction clockwise = blockState.getValue(FACING).getClockWise();
 		Direction counterClockwise = blockState.getValue(FACING).getCounterClockWise();
@@ -121,7 +115,6 @@ public class WallHangingBannerBlock extends AbstractBannerBlock {
 		BlockPos blockPos,
 		BlockPos neighborPos
 	) {
-		// Vanilla wall hanging signs never actually fail canSurvive, so (like them) this one stays put.
 		return direction.getAxis() == blockState.getValue(FACING).getClockWise().getAxis() && !blockState.canSurvive(level, blockPos)
 			? Blocks.AIR.defaultBlockState()
 			: super.updateShape(blockState, direction, neighborState, level, blockPos, neighborPos);

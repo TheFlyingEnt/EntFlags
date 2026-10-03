@@ -25,7 +25,6 @@ public final class ModBlocks {
 
 	public static final Map<DyeColor, Block> STANDING = new EnumMap<>(DyeColor.class);
 	public static final Map<DyeColor, Block> WALL = new EnumMap<>(DyeColor.class);
-	// Hanging banners per wood, in creative-tab order. Only the enabled woods (modded ones need the mod or its DEBUG_ flag).
 	public static final Map<HangingBannerWood, Map<DyeColor, Block>> HANGING = new LinkedHashMap<>();
 	public static final Map<HangingBannerWood, Map<DyeColor, Block>> WALL_HANGING = new LinkedHashMap<>();
 
@@ -66,7 +65,6 @@ public final class ModBlocks {
 				String hangingName = wood.id(color, false);
 				String wallHangingName = wood.id(color, true);
 
-				// No dropsLike(hanging) on the wall variant: it resolves the loot table before registration (see flags).
 				Block hanging = new HangingBannerBlock(wood, color, wood.properties().get());
 				Block wallHanging = new WallHangingBannerBlock(wood, color, wood.properties().get());
 

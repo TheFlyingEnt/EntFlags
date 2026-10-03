@@ -32,8 +32,6 @@ public final class Registration {
 		Item create(Block standing, Block wall, Item.Properties properties);
 	}
 
-	// Vanilla 1.20.1 keeps BlockEntityType.BlockEntitySupplier package-private (Forge AT / Fabric builder expose it),
-	// so common can't call BlockEntityType.Builder.of itself. Generic, so implement it with a method reference.
 	public interface BlockEntityTypeFactory {
 		<T extends BlockEntity> BlockEntityType<T> create(BiFunction<BlockPos, BlockState, T> factory, Block... blocks);
 	}

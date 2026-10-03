@@ -29,7 +29,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.RotationSegment;
 
 public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerBlockEntity> {
-	// Same as a vanilla banner; applied to the flag only, the bar/chains stay at hanging-sign scale (1).
 	private static final float FLAG_SIZE = 0.6666667F;
 
 	private final HangingBannerFlagModel model;
@@ -61,7 +60,6 @@ public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerB
 		this.model.setupAnim(phase);
 
 		poseStack.pushPose();
-		// Vanilla HangingSignRenderer.translateSign.
 		poseStack.translate(0.5F, 0.9375F, 0.5F);
 		poseStack.mulPose(Axis.YP.rotationDegrees(angle));
 		poseStack.translate(0.0F, -0.3125F, 0.0F);
@@ -69,10 +67,6 @@ public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerB
 		poseStack.popPose();
 	}
 
-	/**
-	 * Item form (held, GUI, item frame...): the bar + chains look (state 0), standing still, with the bottom of the
-	 * flag at y = 0 like a vanilla banner item so template_hanging_banner.json can start from vanilla's transforms.
-	 */
 	public void renderItem(
 		PoseStack poseStack, MultiBufferSource bufferSource, int packedLight, int packedOverlay,
 		Block block, List<Pair<Holder<BannerPattern>, DyeColor>> patterns, boolean glint
@@ -105,20 +99,17 @@ public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerB
 		poseStack.pushPose();
 		poseStack.scale(1.0F, -1.0F, -1.0F);
 
-		// Bar + chains: everything except the flag, with the wood's hanging banner texture.
 		this.model.setState(state);
 		ModelPart flag = this.model.flag();
 		flag.visible = false;
 		this.model.root().render(poseStack, bufferSource.getBuffer(RenderType.entityCutoutNoCull(wood.texture())), packedLight, packedOverlay);
 		flag.visible = true;
 
-		// Flag: banner scale, then the cloth + base color + patterns exactly like a vanilla banner.
 		poseStack.scale(FLAG_SIZE, FLAG_SIZE, FLAG_SIZE);
 		BannerRenderer.renderPatterns(poseStack, bufferSource, packedLight, packedOverlay, flag, ModelBakery.BANNER_BASE, true, patterns, glint);
 		poseStack.popPose();
 	}
 
-	// The flag hangs well below its own block, so don't let section culling hide it.
 	@Override
 	public boolean shouldRenderOffScreen(HangingBannerBlockEntity blockEntity) {
 		return true;

@@ -20,15 +20,6 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.ShapedRecipe;
 import net.minecraft.world.level.block.BannerBlock;
 
-/**
- * Hanging banner recipe (one per wood and color):
- * <pre>
- * C W C   (chain, stripped log/stem, chain)
- *   B     (banner of the matching color)
- * </pre>
- * A plain ShapedRecipe for the recipe book (grouped per wood via "group"); assemble() copies the banner's patterns
- * and custom name. JSON: {"type": "entflags:hanging_banner", "group", "log", "color", "result"}.
- */
 public class HangingBannerRecipe extends ShapedRecipe {
 
 	public static final RecipeSerializer<HangingBannerRecipe> SERIALIZER = new Serializer();

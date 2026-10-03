@@ -12,19 +12,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
 
-/**
- * A BannerItem (so looms, shields and the pattern tooltip treat it as a banner) that places like vanilla's
- * HangingSignItem: the ceiling variant when aiming up, otherwise the wall variant.
- */
+
 public class HangingBannerItem extends BannerItem {
-	// BannerItem hard-codes Direction.DOWN (standing banners); hanging banners attach upward.
 	private static final Direction ATTACHMENT = Direction.UP;
 
 	public HangingBannerItem(Block ceilingBlock, Block wallBlock, Properties properties) {
 		super(ceilingBlock, wallBlock, properties);
 	}
 
-	// Same as StandingAndWallBlockItem.getPlacementState, but with the UP attachment direction.
 	@Nullable
 	@Override
 	protected BlockState getPlacementState(BlockPlaceContext context) {

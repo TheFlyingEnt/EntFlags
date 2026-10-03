@@ -5,7 +5,8 @@ import net.ent.entflags.platform.Services;
 
 public class CommonClass {
 
-    // Debug: register a mod's hanging banners even when that mod isn't installed. Keep false for releases.
+    // Debug: register a mod's hanging banners even when that mod isn't installed. 
+    // IMPORTANT: Keep false for releases.
     public static final boolean DEBUG_BOP = false;
     public static final boolean DEBUG_BETTER_END = false;
     public static final boolean DEBUG_BETTER_NETHER = false;

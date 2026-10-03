@@ -18,10 +18,6 @@ public final class ModItems {
 	private ModItems() {
 	}
 
-	/**
-	 * @param flagFactory builds the flag items (a BannerItem, or a loader subclass that hooks up the item renderer)
-	 * @param hangingFactory builds the hanging banner items (a HangingBannerItem, or a loader subclass of it)
-	 */
 	public static void registerItems(Registration.FlagItemFactory flagFactory, Registration.FlagItemFactory hangingFactory, Registration.ItemSink sink) {
 		for (DyeColor color : DyeColor.values()) {
 			String name = color.getName() + "_horizontal_banner";

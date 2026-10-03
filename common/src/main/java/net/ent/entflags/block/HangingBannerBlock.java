@@ -39,11 +39,6 @@ import net.minecraft.world.level.block.state.properties.RotationSegment;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-/**
- * Hanging banner under a block, mirroring vanilla's CeilingHangingSignBlock.
- * ATTACHED = false: two chains, snapped to the 4 cardinal directions (under a full block face).
- * ATTACHED = true: single V chain, any of the 16 rotations (under a fence/wall/chain/hanging sign, or when sneaking).
- */
 public class HangingBannerBlock extends AbstractBannerBlock {
 	public static final IntegerProperty ROTATION = BlockStateProperties.ROTATION_16;
 	public static final BooleanProperty ATTACHED = BlockStateProperties.ATTACHED;
@@ -76,7 +71,6 @@ public class HangingBannerBlock extends AbstractBannerBlock {
 		Direction facing = Direction.fromYRot(context.getRotation());
 		boolean attached = !Block.isFaceFull(above.getCollisionShape(level, abovePos), Direction.DOWN) || context.isSecondaryUseActive();
 
-		// Under another hanging sign/banner lined up with it, use the two-chain look so they read as one column.
 		if (isHangingSignOrBanner(above) && !context.isSecondaryUseActive()) {
 			if (above.hasProperty(BlockStateProperties.HORIZONTAL_FACING)) {
 				if (above.getValue(BlockStateProperties.HORIZONTAL_FACING).getAxis().test(facing)) {
@@ -106,7 +100,6 @@ public class HangingBannerBlock extends AbstractBannerBlock {
 		return shape == null ? SHAPE : shape;
 	}
 
-	// Like hanging signs, lets another hanging sign/banner hang underneath.
 	@Override
 	public VoxelShape getBlockSupportShape(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos) {
 		return this.getShape(blockState, blockGetter, blockPos, CollisionContext.empty());
@@ -146,7 +139,6 @@ public class HangingBannerBlock extends AbstractBannerBlock {
 		return new HangingBannerBlockEntity(pos, state);
 	}
 
-	// AbstractBannerBlock only handles vanilla BannerBlockEntity for these two, so redo them for ours.
 	@Override
 	public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
 		HorizontalBannerBlockEntity.onPlaced(level, pos, stack);

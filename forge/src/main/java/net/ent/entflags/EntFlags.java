@@ -56,8 +56,6 @@ public class EntFlags {
 
 	private void onBuildCreativeTab(BuildCreativeModeTabContentsEvent event) {
 		if (event.getTabKey().equals(ModCreativeTab.COLORED_BLOCKS) || event.getTabKey().equals(ModCreativeTab.FUNCTIONAL_BLOCKS)) {
-			// Flags right after the vanilla banners, then the hanging banners right after the flags.
-			// Each one is inserted directly after the anchor, so go in reverse to keep the color order.
 			insertAllAfter(event, ModCreativeTab.bannerAnchor(), ModCreativeTab.flagStacks());
 			insertAllAfter(event, ModCreativeTab.flagAnchor(), ModCreativeTab.hangingBannerStacks());
 		}

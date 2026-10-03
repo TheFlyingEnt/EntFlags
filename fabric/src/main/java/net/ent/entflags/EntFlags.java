@@ -32,7 +32,6 @@ public class EntFlags implements ModInitializer {
 			(id, type) -> Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, id, type));
 		ModRecipes.registerRecipeSerializers((id, serializer) -> Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, id, serializer));
 
-		// Flags right after the vanilla banners, then the hanging banners right after the flags.
 		ItemGroupEvents.modifyEntriesEvent(ModCreativeTab.COLORED_BLOCKS).register(entries -> {
 			entries.addAfter(ModCreativeTab.bannerAnchor(), ModCreativeTab.flagStacks());
 			entries.addAfter(ModCreativeTab.flagAnchor(), ModCreativeTab.hangingBannerStacks());

@@ -16,7 +16,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BannerBlockEntity;
 import net.minecraft.world.level.block.entity.BannerPattern;
 
-// Item form of flags and hanging banners (Fabric BuiltinItemRendererRegistry / Forge BEWLR).
 public final class HorizontalBannerItemRenderer {
 
 	private static HorizontalBannerRenderer bannerRenderer;
@@ -29,7 +28,6 @@ public final class HorizontalBannerItemRenderer {
 		if (!(stack.getItem() instanceof BannerItem bannerItem)) {
 			return;
 		}
-		// Baked lazily: item renderers are set up before the entity model set exists.
 		if (bannerRenderer == null) {
 			bannerRenderer = new HorizontalBannerRenderer(Minecraft.getInstance().getEntityModels());
 			hangingBannerRenderer = new HangingBannerRenderer(Minecraft.getInstance().getEntityModels());

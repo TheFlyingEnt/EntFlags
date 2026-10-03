@@ -34,13 +34,11 @@ public final class ModCreativeTab {
 		return new ItemStack(BannerBlock.byColor(last));
 	}
 
-	// Hanging banners go right after the last (pink) flag.
 	public static ItemStack flagAnchor() {
 		DyeColor last = GAMEPLAY_COLOR_ORDER.get(GAMEPLAY_COLOR_ORDER.size() - 1);
 		return new ItemStack(ModItems.ITEMS.get(last));
 	}
 
-	// Grouped by wood (in registration order), each wood in the banner color order.
 	public static List<ItemStack> hangingBannerStacks() {
 		List<ItemStack> stacks = new ArrayList<>();
 		for (Map<DyeColor, Item> byColor : ModItems.HANGING_BANNERS.values()) {
