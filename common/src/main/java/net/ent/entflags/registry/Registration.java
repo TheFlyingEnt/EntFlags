@@ -1,12 +1,16 @@
 package net.ent.entflags.registry;
 
-import net.ent.entflags.block.entity.HorizontalBannerBlockEntity;
+import java.util.function.BiFunction;
+
+import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.state.BlockState;
 
 public final class Registration {
 
@@ -28,9 +32,8 @@ public final class Registration {
 		Item create(Block standing, Block wall, Item.Properties properties);
 	}
 
-	@FunctionalInterface
-	public interface BannerBlockEntityTypeFactory {
-		BlockEntityType<HorizontalBannerBlockEntity> create(Block[] blocks);
+	public interface BlockEntityTypeFactory {
+		<T extends BlockEntity> BlockEntityType<T> create(BiFunction<BlockPos, BlockState, T> factory, Block... blocks);
 	}
 
 	@FunctionalInterface

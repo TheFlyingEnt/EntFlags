@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:lucernia_stripped_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:lucernia_white_hanging_banner_betterend",
+      "entflags:lucernia_orange_hanging_banner_betterend",
+      "entflags:lucernia_magenta_hanging_banner_betterend",
+      "entflags:lucernia_light_blue_hanging_banner_betterend",
+      "entflags:lucernia_yellow_hanging_banner_betterend",
+      "entflags:lucernia_lime_hanging_banner_betterend",
+      "entflags:lucernia_pink_hanging_banner_betterend",
+      "entflags:lucernia_gray_hanging_banner_betterend",
+      "entflags:lucernia_light_gray_hanging_banner_betterend",
+      "entflags:lucernia_cyan_hanging_banner_betterend",
+      "entflags:lucernia_purple_hanging_banner_betterend",
+      "entflags:lucernia_blue_hanging_banner_betterend",
+      "entflags:lucernia_brown_hanging_banner_betterend",
+      "entflags:lucernia_green_hanging_banner_betterend",
+      "entflags:lucernia_red_hanging_banner_betterend",
+      "entflags:lucernia_black_hanging_banner_betterend"
+    ]
+  }
+}

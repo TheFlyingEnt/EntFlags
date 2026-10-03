@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomesoplenty"
+      ]
+    }
+  ],
+  "group": "entflags:willow_hanging_banner_bop",
+  "log": "biomesoplenty:stripped_willow_log",
+  "color": "green",
+  "result": "entflags:willow_green_hanging_banner_bop"
+}

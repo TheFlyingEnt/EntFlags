@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "twilightforest"
+      ]
+    }
+  ],
+  "group": "entflags:canopy_hanging_banner_twilightforest",
+  "log": "twilightforest:stripped_canopy_log",
+  "color": "purple",
+  "result": "entflags:canopy_purple_hanging_banner_twilightforest"
+}

@@ -1,5 +1,9 @@
 package net.ent.entflags.client;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import net.ent.entflags.client.render.HangingBannerRenderer;
 import net.ent.entflags.client.render.HorizontalBannerRenderer;
 import net.ent.entflags.registry.ModBlockEntities;
 import net.ent.entflags.registry.ModItems;
@@ -27,6 +31,7 @@ public final class EntFlagsNeoForgeClient {
 
 	private static void onRegisterRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(ModBlockEntities.HORIZONTAL_BANNER, HorizontalBannerRenderer::new);
+		event.registerBlockEntityRenderer(ModBlockEntities.HANGING_BANNER, HangingBannerRenderer::new);
 	}
 
 	private static void onRegisterClientExtensions(RegisterClientExtensionsEvent event) {
@@ -35,6 +40,13 @@ public final class EntFlagsNeoForgeClient {
 			public BlockEntityWithoutLevelRenderer getCustomRenderer() {
 				return HorizontalBannerBEWLR.get();
 			}
-		}, ModItems.ITEMS.values().toArray(new Item[0]));
+		}, allBannerItems());
+	}
+
+	// Flags and every registered hanging banner.
+	private static Item[] allBannerItems() {
+		List<Item> items = new ArrayList<>(ModItems.ITEMS.values());
+		ModItems.HANGING_BANNERS.values().forEach(byColor -> items.addAll(byColor.values()));
+		return items.toArray(new Item[0]);
 	}
 }

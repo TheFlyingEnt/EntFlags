@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:helix_tree_stripped_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:helix_tree_white_hanging_banner_betterend",
+      "entflags:helix_tree_orange_hanging_banner_betterend",
+      "entflags:helix_tree_magenta_hanging_banner_betterend",
+      "entflags:helix_tree_light_blue_hanging_banner_betterend",
+      "entflags:helix_tree_yellow_hanging_banner_betterend",
+      "entflags:helix_tree_lime_hanging_banner_betterend",
+      "entflags:helix_tree_pink_hanging_banner_betterend",
+      "entflags:helix_tree_gray_hanging_banner_betterend",
+      "entflags:helix_tree_light_gray_hanging_banner_betterend",
+      "entflags:helix_tree_cyan_hanging_banner_betterend",
+      "entflags:helix_tree_purple_hanging_banner_betterend",
+      "entflags:helix_tree_blue_hanging_banner_betterend",
+      "entflags:helix_tree_brown_hanging_banner_betterend",
+      "entflags:helix_tree_green_hanging_banner_betterend",
+      "entflags:helix_tree_red_hanging_banner_betterend",
+      "entflags:helix_tree_black_hanging_banner_betterend"
+    ]
+  }
+}

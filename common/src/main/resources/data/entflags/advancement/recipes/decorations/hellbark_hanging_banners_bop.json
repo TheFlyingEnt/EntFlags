@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomesoplenty"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "biomesoplenty:stripped_hellbark_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:hellbark_white_hanging_banner_bop",
+      "entflags:hellbark_orange_hanging_banner_bop",
+      "entflags:hellbark_magenta_hanging_banner_bop",
+      "entflags:hellbark_light_blue_hanging_banner_bop",
+      "entflags:hellbark_yellow_hanging_banner_bop",
+      "entflags:hellbark_lime_hanging_banner_bop",
+      "entflags:hellbark_pink_hanging_banner_bop",
+      "entflags:hellbark_gray_hanging_banner_bop",
+      "entflags:hellbark_light_gray_hanging_banner_bop",
+      "entflags:hellbark_cyan_hanging_banner_bop",
+      "entflags:hellbark_purple_hanging_banner_bop",
+      "entflags:hellbark_blue_hanging_banner_bop",
+      "entflags:hellbark_brown_hanging_banner_bop",
+      "entflags:hellbark_green_hanging_banner_bop",
+      "entflags:hellbark_red_hanging_banner_bop",
+      "entflags:hellbark_black_hanging_banner_bop"
+    ]
+  }
+}

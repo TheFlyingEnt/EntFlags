@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:tenanea_stripped_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:tenanea_white_hanging_banner_betterend",
+      "entflags:tenanea_orange_hanging_banner_betterend",
+      "entflags:tenanea_magenta_hanging_banner_betterend",
+      "entflags:tenanea_light_blue_hanging_banner_betterend",
+      "entflags:tenanea_yellow_hanging_banner_betterend",
+      "entflags:tenanea_lime_hanging_banner_betterend",
+      "entflags:tenanea_pink_hanging_banner_betterend",
+      "entflags:tenanea_gray_hanging_banner_betterend",
+      "entflags:tenanea_light_gray_hanging_banner_betterend",
+      "entflags:tenanea_cyan_hanging_banner_betterend",
+      "entflags:tenanea_purple_hanging_banner_betterend",
+      "entflags:tenanea_blue_hanging_banner_betterend",
+      "entflags:tenanea_brown_hanging_banner_betterend",
+      "entflags:tenanea_green_hanging_banner_betterend",
+      "entflags:tenanea_red_hanging_banner_betterend",
+      "entflags:tenanea_black_hanging_banner_betterend"
+    ]
+  }
+}

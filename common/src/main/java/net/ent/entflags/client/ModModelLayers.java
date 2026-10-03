@@ -4,6 +4,7 @@ import java.util.function.BiConsumer;
 import java.util.function.Supplier;
 
 import net.ent.entflags.Constants;
+import net.ent.entflags.client.model.HangingBannerFlagModel;
 import net.ent.entflags.client.model.WarBannerFlagModel;
 import net.ent.entflags.client.model.WarBannerModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
@@ -16,6 +17,7 @@ public final class ModModelLayers {
 	public static final ModelLayerLocation WAR_WALL_BANNER = layer("war_wall_banner", "main");
 	public static final ModelLayerLocation WAR_STANDING_BANNER_FLAG = layer("war_standing_banner_flag", "flag");
 	public static final ModelLayerLocation WAR_WALL_BANNER_FLAG = layer("war_wall_banner_flag", "flag");
+	public static final ModelLayerLocation HANGING_BANNER = layer("hanging_banner", "main");
 
 	public static final float LAYER_SCALE = 2.0F;
 	public static final float WALL_LAYER_Z_OFFSET = -10.016F;
@@ -28,6 +30,7 @@ public final class ModModelLayers {
 		sink.accept(WAR_WALL_BANNER, () -> WarBannerModel.createBodyLayer(false));
 		sink.accept(WAR_STANDING_BANNER_FLAG, () -> WarBannerFlagModel.createFlagLayer(true));
 		sink.accept(WAR_WALL_BANNER_FLAG, () -> WarBannerFlagModel.createFlagLayer(false));
+		sink.accept(HANGING_BANNER, HangingBannerFlagModel::createBodyLayer);
 	}
 
 	private static ModelLayerLocation layer(String path, String part) {

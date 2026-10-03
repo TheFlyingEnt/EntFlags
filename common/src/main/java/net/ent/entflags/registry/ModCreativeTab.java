@@ -2,12 +2,17 @@ package net.ent.entflags.registry;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.function.Supplier;
 
+import net.ent.entflags.Constants;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.BannerBlock;
 
@@ -32,6 +37,21 @@ public final class ModCreativeTab {
 		return new ItemStack(BannerBlock.byColor(last));
 	}
 
+	public static ItemStack flagAnchor() {
+		DyeColor last = GAMEPLAY_COLOR_ORDER.get(GAMEPLAY_COLOR_ORDER.size() - 1);
+		return new ItemStack(ModItems.ITEMS.get(last));
+	}
+
+	public static List<ItemStack> hangingBannerStacks() {
+		List<ItemStack> stacks = new ArrayList<>();
+		for (Map<DyeColor, Item> byColor : ModItems.HANGING_BANNERS.values()) {
+			for (DyeColor color : GAMEPLAY_COLOR_ORDER) {
+				stacks.add(new ItemStack(byColor.get(color)));
+			}
+		}
+		return stacks;
+	}
+
 	public static List<ItemStack> flagStacks() {
 		List<ItemStack> stacks = new ArrayList<>();
 		for (DyeColor color : GAMEPLAY_COLOR_ORDER) {
@@ -44,14 +64,22 @@ public final class ModCreativeTab {
 		return ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.withDefaultNamespace(path));
 	}
 
-	public static final ResourceLocation ID = ResourceLocation.fromNamespaceAndPath(net.ent.entflags.Constants.MOD_ID, "flags");
+	public static final ResourceLocation ID = ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "flags");
 	public static final ResourceKey<CreativeModeTab> TAB_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ID);
 
-	/*public static void registerCreativeTab(Registration.CreativeTabSink sink) {
-	    CreativeModeTab tab = CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
-	        .title(net.minecraft.network.chat.Component.translatable("itemGroup." + net.ent.entflags.Constants.MOD_ID + ".flags"))
-	        .icon(() -> new ItemStack(ModItems.ITEMS.get(DyeColor.WHITE)))
-	        .build();
-	    sink.accept(ID, tab);
-	}*/
+	/**
+	 * "Ent's Flags" tab with every flag, then every hanging banner (by wood). The flags also stay in the vanilla
+	 * Colored/Functional Blocks tabs. Each loader passes its own builder (Fabric's pages modded tabs properly).
+	 */
+	public static void registerCreativeTab(Supplier<CreativeModeTab.Builder> builderFactory, Registration.CreativeTabSink sink) {
+		CreativeModeTab tab = builderFactory.get()
+			.title(Component.translatable("itemGroup." + Constants.MOD_ID + ".flags"))
+			.icon(() -> new ItemStack(ModItems.ITEMS.get(DyeColor.WHITE)))
+			.displayItems((parameters, output) -> {
+				flagStacks().forEach(output::accept);
+				hangingBannerStacks().forEach(output::accept);
+			})
+			.build();
+		sink.accept(ID, tab);
+	}
 }

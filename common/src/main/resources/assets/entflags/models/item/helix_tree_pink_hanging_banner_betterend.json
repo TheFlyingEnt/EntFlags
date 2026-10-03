@@ -1,0 +1,6 @@
+{
+  "parent": "entflags:item/template_hanging_banner",
+  "textures": {
+    "particle": "betterend:block/helix_tree_stripped_log_side"
+  }
+}

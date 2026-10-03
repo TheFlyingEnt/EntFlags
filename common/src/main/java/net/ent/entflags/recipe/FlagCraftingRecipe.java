@@ -69,25 +69,7 @@ public class FlagCraftingRecipe extends ShapedRecipe {
 
 	@Override
 	public ItemStack assemble(CraftingInput input, HolderLookup.Provider registries) {
-		ItemStack result = super.assemble(input, registries);
-
-		for (int i = 0; i < input.size(); i++) {
-			ItemStack stack = input.getItem(i);
-			if (!(stack.getItem() instanceof BannerItem)) {
-				continue;
-			}
-
-			BannerPatternLayers patterns = stack.get(DataComponents.BANNER_PATTERNS);
-			if (patterns != null && !patterns.equals(BannerPatternLayers.EMPTY)) {
-				result.set(DataComponents.BANNER_PATTERNS, patterns);
-			}
-			Component customName = stack.get(DataComponents.CUSTOM_NAME);
-			if (customName != null) {
-				result.set(DataComponents.CUSTOM_NAME, customName);
-			}
-			break;
-		}
-		return result;
+		return BannerRecipes.copyBannerData(input, super.assemble(input, registries));
 	}
 
 	public DyeColor getColor() {
