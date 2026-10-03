@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_cherry_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:cherry_white_hanging_banner",
+      "entflags:cherry_orange_hanging_banner",
+      "entflags:cherry_magenta_hanging_banner",
+      "entflags:cherry_light_blue_hanging_banner",
+      "entflags:cherry_yellow_hanging_banner",
+      "entflags:cherry_lime_hanging_banner",
+      "entflags:cherry_pink_hanging_banner",
+      "entflags:cherry_gray_hanging_banner",
+      "entflags:cherry_light_gray_hanging_banner",
+      "entflags:cherry_cyan_hanging_banner",
+      "entflags:cherry_purple_hanging_banner",
+      "entflags:cherry_blue_hanging_banner",
+      "entflags:cherry_brown_hanging_banner",
+      "entflags:cherry_green_hanging_banner",
+      "entflags:cherry_red_hanging_banner",
+      "entflags:cherry_black_hanging_banner"
+    ]
+  }
+}

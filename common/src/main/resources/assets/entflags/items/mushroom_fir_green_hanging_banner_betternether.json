@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/mushroom_fir_hanging_banner_betternether",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "mushroom_fir_betternether",
+      "color": "green"
+    }
+  }
+}

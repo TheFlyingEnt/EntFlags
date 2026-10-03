@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/lacugrove_hanging_banner_betterend",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "lacugrove_betterend",
+      "color": "black"
+    }
+  }
+}

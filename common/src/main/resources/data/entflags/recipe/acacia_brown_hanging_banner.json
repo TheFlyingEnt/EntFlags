@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:acacia_hanging_banner",
+  "log": "minecraft:stripped_acacia_log",
+  "color": "brown",
+  "result": "entflags:acacia_brown_hanging_banner"
+}

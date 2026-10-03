@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/dark_oak_hanging_banner",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "dark_oak",
+      "color": "pink"
+    }
+  }
+}

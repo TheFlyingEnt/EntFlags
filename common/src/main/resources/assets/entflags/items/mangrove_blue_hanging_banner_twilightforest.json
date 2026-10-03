@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/mangrove_hanging_banner_twilightforest",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "mangrove_twilightforest",
+      "color": "blue"
+    }
+  }
+}

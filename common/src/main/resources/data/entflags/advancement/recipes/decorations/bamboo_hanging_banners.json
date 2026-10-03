@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_bamboo_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:bamboo_white_hanging_banner",
+      "entflags:bamboo_orange_hanging_banner",
+      "entflags:bamboo_magenta_hanging_banner",
+      "entflags:bamboo_light_blue_hanging_banner",
+      "entflags:bamboo_yellow_hanging_banner",
+      "entflags:bamboo_lime_hanging_banner",
+      "entflags:bamboo_pink_hanging_banner",
+      "entflags:bamboo_gray_hanging_banner",
+      "entflags:bamboo_light_gray_hanging_banner",
+      "entflags:bamboo_cyan_hanging_banner",
+      "entflags:bamboo_purple_hanging_banner",
+      "entflags:bamboo_blue_hanging_banner",
+      "entflags:bamboo_brown_hanging_banner",
+      "entflags:bamboo_green_hanging_banner",
+      "entflags:bamboo_red_hanging_banner",
+      "entflags:bamboo_black_hanging_banner"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/pythadendron_hanging_banner_betterend",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "pythadendron_betterend",
+      "color": "black"
+    }
+  }
+}

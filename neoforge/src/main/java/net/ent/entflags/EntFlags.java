@@ -38,15 +38,21 @@ public class EntFlags {
 		event.register(Registries.ITEM, helper -> ModItems.registerItems(helper::register));
 		event.register(Registries.BLOCK_ENTITY_TYPE, helper -> ModBlockEntities.registerBlockEntities(helper::register));
 		event.register(Registries.RECIPE_SERIALIZER, helper -> ModRecipes.registerRecipeSerializers(helper::register));
+		event.register(Registries.CREATIVE_MODE_TAB, helper -> ModCreativeTab.registerCreativeTab(CreativeModeTab::builder, helper::register));
 	}
 
 	private void onBuildCreativeTab(BuildCreativeModeTabContentsEvent event) {
 		if (event.getTabKey().equals(ModCreativeTab.COLORED_BLOCKS) || event.getTabKey().equals(ModCreativeTab.FUNCTIONAL_BLOCKS)) {
-			ItemStack anchor = ModCreativeTab.bannerAnchor();
-			List<ItemStack> flags = ModCreativeTab.flagStacks();
-			for (int i = flags.size() - 1; i >= 0; i--) {
-				event.insertAfter(anchor, flags.get(i), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-			}
+			insertAllAfter(event, ModCreativeTab.bannerAnchor(), ModCreativeTab.flagStacks());
+			insertAllAfter(event, ModCreativeTab.flagAnchor(), ModCreativeTab.hangingBannerStacks());
+		} else if (event.getTabKey().equals(ModCreativeTab.TAB_KEY)) {
+			ModCreativeTab.allStacks().forEach(event::accept);
+		}
+	}
+
+	private static void insertAllAfter(BuildCreativeModeTabContentsEvent event, ItemStack anchor, List<ItemStack> stacks) {
+		for (int i = stacks.size() - 1; i >= 0; i--) {
+			event.insertAfter(anchor, stacks.get(i), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 		}
 	}
 }

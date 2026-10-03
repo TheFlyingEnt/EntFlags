@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:jungle_hanging_banner",
+  "log": "minecraft:stripped_jungle_log",
+  "color": "brown",
+  "result": "entflags:jungle_brown_hanging_banner"
+}

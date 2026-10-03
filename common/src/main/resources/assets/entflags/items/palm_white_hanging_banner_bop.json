@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/palm_hanging_banner_bop",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "palm_bop",
+      "color": "white"
+    }
+  }
+}

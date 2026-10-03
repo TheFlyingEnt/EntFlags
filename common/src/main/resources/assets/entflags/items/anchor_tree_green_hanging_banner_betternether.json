@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/anchor_tree_hanging_banner_betternether",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "anchor_tree_betternether",
+      "color": "green"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/mossy_glowshroom_hanging_banner_betterend",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "mossy_glowshroom_betterend",
+      "color": "pink"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/wart_hanging_banner_betternether",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "wart_betternether",
+      "color": "light_blue"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:oak_hanging_banner",
+  "log": "minecraft:stripped_oak_log",
+  "color": "orange",
+  "result": "entflags:oak_orange_hanging_banner"
+}

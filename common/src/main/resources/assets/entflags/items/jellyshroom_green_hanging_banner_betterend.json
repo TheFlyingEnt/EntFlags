@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/jellyshroom_hanging_banner_betterend",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "jellyshroom_betterend",
+      "color": "green"
+    }
+  }
+}

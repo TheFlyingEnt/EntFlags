@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/umbrella_tree_hanging_banner_betterend",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "umbrella_tree_betterend",
+      "color": "pink"
+    }
+  }
+}

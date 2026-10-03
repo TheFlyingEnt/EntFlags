@@ -1,0 +1,6 @@
+{
+  "parent": "entflags:item/template_hanging_banner",
+  "textures": {
+    "particle": "biomesoplenty:block/stripped_hellbark_log"
+  }
+}

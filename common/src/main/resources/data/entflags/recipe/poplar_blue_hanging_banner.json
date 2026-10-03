@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:poplar_hanging_banner",
+  "log": "minecraft:stripped_poplar_log",
+  "color": "blue",
+  "result": "entflags:poplar_blue_hanging_banner"
+}

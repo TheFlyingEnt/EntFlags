@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_oak_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:oak_white_hanging_banner",
+      "entflags:oak_orange_hanging_banner",
+      "entflags:oak_magenta_hanging_banner",
+      "entflags:oak_light_blue_hanging_banner",
+      "entflags:oak_yellow_hanging_banner",
+      "entflags:oak_lime_hanging_banner",
+      "entflags:oak_pink_hanging_banner",
+      "entflags:oak_gray_hanging_banner",
+      "entflags:oak_light_gray_hanging_banner",
+      "entflags:oak_cyan_hanging_banner",
+      "entflags:oak_purple_hanging_banner",
+      "entflags:oak_blue_hanging_banner",
+      "entflags:oak_brown_hanging_banner",
+      "entflags:oak_green_hanging_banner",
+      "entflags:oak_red_hanging_banner",
+      "entflags:oak_black_hanging_banner"
+    ]
+  }
+}

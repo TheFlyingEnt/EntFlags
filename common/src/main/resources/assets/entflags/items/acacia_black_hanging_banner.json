@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/acacia_hanging_banner",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "acacia",
+      "color": "black"
+    }
+  }
+}

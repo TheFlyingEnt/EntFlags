@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/redwood_hanging_banner_bop",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "redwood_bop",
+      "color": "red"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/time_hanging_banner_twilightforest",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "time_twilightforest",
+      "color": "lime"
+    }
+  }
+}

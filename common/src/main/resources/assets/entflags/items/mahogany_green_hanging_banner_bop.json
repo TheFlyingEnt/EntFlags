@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/mahogany_hanging_banner_bop",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "mahogany_bop",
+      "color": "green"
+    }
+  }
+}

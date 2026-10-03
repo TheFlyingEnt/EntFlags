@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_poplar_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:poplar_white_hanging_banner",
+      "entflags:poplar_orange_hanging_banner",
+      "entflags:poplar_magenta_hanging_banner",
+      "entflags:poplar_light_blue_hanging_banner",
+      "entflags:poplar_yellow_hanging_banner",
+      "entflags:poplar_lime_hanging_banner",
+      "entflags:poplar_pink_hanging_banner",
+      "entflags:poplar_gray_hanging_banner",
+      "entflags:poplar_light_gray_hanging_banner",
+      "entflags:poplar_cyan_hanging_banner",
+      "entflags:poplar_purple_hanging_banner",
+      "entflags:poplar_blue_hanging_banner",
+      "entflags:poplar_brown_hanging_banner",
+      "entflags:poplar_green_hanging_banner",
+      "entflags:poplar_red_hanging_banner",
+      "entflags:poplar_black_hanging_banner"
+    ]
+  }
+}

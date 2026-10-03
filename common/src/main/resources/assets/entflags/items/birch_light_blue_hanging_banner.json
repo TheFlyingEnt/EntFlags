@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/birch_hanging_banner",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "birch",
+      "color": "light_blue"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/twilight_oak_hanging_banner_twilightforest",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "twilight_oak_twilightforest",
+      "color": "orange"
+    }
+  }
+}

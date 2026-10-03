@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betternether"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betternether"
+      ]
+    }
+  ],
+  "group": "entflags:willow_hanging_banner_betternether",
+  "log": "betternether:willow_stripped_log",
+  "color": "lime",
+  "result": "entflags:willow_lime_hanging_banner_betternether"
+}

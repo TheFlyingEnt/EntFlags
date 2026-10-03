@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "group": "entflags:lucernia_jellyshroom_hanging_banner_betterend",
+  "log": "betterend:lucernia_stripped_log",
+  "color": "green",
+  "result": "entflags:lucernia_jellyshroom_green_hanging_banner_betterend"
+}
