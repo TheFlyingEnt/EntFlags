@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "aether"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aether:stripped_skyroot_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:skyroot_white_hanging_banner_aether",
+      "entflags:skyroot_orange_hanging_banner_aether",
+      "entflags:skyroot_magenta_hanging_banner_aether",
+      "entflags:skyroot_light_blue_hanging_banner_aether",
+      "entflags:skyroot_yellow_hanging_banner_aether",
+      "entflags:skyroot_lime_hanging_banner_aether",
+      "entflags:skyroot_pink_hanging_banner_aether",
+      "entflags:skyroot_gray_hanging_banner_aether",
+      "entflags:skyroot_light_gray_hanging_banner_aether",
+      "entflags:skyroot_cyan_hanging_banner_aether",
+      "entflags:skyroot_purple_hanging_banner_aether",
+      "entflags:skyroot_blue_hanging_banner_aether",
+      "entflags:skyroot_brown_hanging_banner_aether",
+      "entflags:skyroot_green_hanging_banner_aether",
+      "entflags:skyroot_red_hanging_banner_aether",
+      "entflags:skyroot_black_hanging_banner_aether"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/skyroot_hanging_banner_aether",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "skyroot_aether",
+      "color": "green"
+    }
+  }
+}

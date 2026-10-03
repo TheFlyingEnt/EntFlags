@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/dead_hanging_banner_bop",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "dead_bop",
+      "color": "light_gray"
+    }
+  }
+}

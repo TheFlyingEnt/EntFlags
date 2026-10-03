@@ -31,6 +31,5766 @@
     "entflags:red_horizontal_banner",
     "entflags:red_wall_horizontal_banner",
     "entflags:black_horizontal_banner",
-    "entflags:black_wall_horizontal_banner"
+    "entflags:black_wall_horizontal_banner",
+    "entflags:oak_white_hanging_banner",
+    "entflags:oak_white_wall_hanging_banner",
+    "entflags:oak_orange_hanging_banner",
+    "entflags:oak_orange_wall_hanging_banner",
+    "entflags:oak_magenta_hanging_banner",
+    "entflags:oak_magenta_wall_hanging_banner",
+    "entflags:oak_light_blue_hanging_banner",
+    "entflags:oak_light_blue_wall_hanging_banner",
+    "entflags:oak_yellow_hanging_banner",
+    "entflags:oak_yellow_wall_hanging_banner",
+    "entflags:oak_lime_hanging_banner",
+    "entflags:oak_lime_wall_hanging_banner",
+    "entflags:oak_pink_hanging_banner",
+    "entflags:oak_pink_wall_hanging_banner",
+    "entflags:oak_gray_hanging_banner",
+    "entflags:oak_gray_wall_hanging_banner",
+    "entflags:oak_light_gray_hanging_banner",
+    "entflags:oak_light_gray_wall_hanging_banner",
+    "entflags:oak_cyan_hanging_banner",
+    "entflags:oak_cyan_wall_hanging_banner",
+    "entflags:oak_purple_hanging_banner",
+    "entflags:oak_purple_wall_hanging_banner",
+    "entflags:oak_blue_hanging_banner",
+    "entflags:oak_blue_wall_hanging_banner",
+    "entflags:oak_brown_hanging_banner",
+    "entflags:oak_brown_wall_hanging_banner",
+    "entflags:oak_green_hanging_banner",
+    "entflags:oak_green_wall_hanging_banner",
+    "entflags:oak_red_hanging_banner",
+    "entflags:oak_red_wall_hanging_banner",
+    "entflags:oak_black_hanging_banner",
+    "entflags:oak_black_wall_hanging_banner",
+    "entflags:spruce_white_hanging_banner",
+    "entflags:spruce_white_wall_hanging_banner",
+    "entflags:spruce_orange_hanging_banner",
+    "entflags:spruce_orange_wall_hanging_banner",
+    "entflags:spruce_magenta_hanging_banner",
+    "entflags:spruce_magenta_wall_hanging_banner",
+    "entflags:spruce_light_blue_hanging_banner",
+    "entflags:spruce_light_blue_wall_hanging_banner",
+    "entflags:spruce_yellow_hanging_banner",
+    "entflags:spruce_yellow_wall_hanging_banner",
+    "entflags:spruce_lime_hanging_banner",
+    "entflags:spruce_lime_wall_hanging_banner",
+    "entflags:spruce_pink_hanging_banner",
+    "entflags:spruce_pink_wall_hanging_banner",
+    "entflags:spruce_gray_hanging_banner",
+    "entflags:spruce_gray_wall_hanging_banner",
+    "entflags:spruce_light_gray_hanging_banner",
+    "entflags:spruce_light_gray_wall_hanging_banner",
+    "entflags:spruce_cyan_hanging_banner",
+    "entflags:spruce_cyan_wall_hanging_banner",
+    "entflags:spruce_purple_hanging_banner",
+    "entflags:spruce_purple_wall_hanging_banner",
+    "entflags:spruce_blue_hanging_banner",
+    "entflags:spruce_blue_wall_hanging_banner",
+    "entflags:spruce_brown_hanging_banner",
+    "entflags:spruce_brown_wall_hanging_banner",
+    "entflags:spruce_green_hanging_banner",
+    "entflags:spruce_green_wall_hanging_banner",
+    "entflags:spruce_red_hanging_banner",
+    "entflags:spruce_red_wall_hanging_banner",
+    "entflags:spruce_black_hanging_banner",
+    "entflags:spruce_black_wall_hanging_banner",
+    "entflags:birch_white_hanging_banner",
+    "entflags:birch_white_wall_hanging_banner",
+    "entflags:birch_orange_hanging_banner",
+    "entflags:birch_orange_wall_hanging_banner",
+    "entflags:birch_magenta_hanging_banner",
+    "entflags:birch_magenta_wall_hanging_banner",
+    "entflags:birch_light_blue_hanging_banner",
+    "entflags:birch_light_blue_wall_hanging_banner",
+    "entflags:birch_yellow_hanging_banner",
+    "entflags:birch_yellow_wall_hanging_banner",
+    "entflags:birch_lime_hanging_banner",
+    "entflags:birch_lime_wall_hanging_banner",
+    "entflags:birch_pink_hanging_banner",
+    "entflags:birch_pink_wall_hanging_banner",
+    "entflags:birch_gray_hanging_banner",
+    "entflags:birch_gray_wall_hanging_banner",
+    "entflags:birch_light_gray_hanging_banner",
+    "entflags:birch_light_gray_wall_hanging_banner",
+    "entflags:birch_cyan_hanging_banner",
+    "entflags:birch_cyan_wall_hanging_banner",
+    "entflags:birch_purple_hanging_banner",
+    "entflags:birch_purple_wall_hanging_banner",
+    "entflags:birch_blue_hanging_banner",
+    "entflags:birch_blue_wall_hanging_banner",
+    "entflags:birch_brown_hanging_banner",
+    "entflags:birch_brown_wall_hanging_banner",
+    "entflags:birch_green_hanging_banner",
+    "entflags:birch_green_wall_hanging_banner",
+    "entflags:birch_red_hanging_banner",
+    "entflags:birch_red_wall_hanging_banner",
+    "entflags:birch_black_hanging_banner",
+    "entflags:birch_black_wall_hanging_banner",
+    "entflags:jungle_white_hanging_banner",
+    "entflags:jungle_white_wall_hanging_banner",
+    "entflags:jungle_orange_hanging_banner",
+    "entflags:jungle_orange_wall_hanging_banner",
+    "entflags:jungle_magenta_hanging_banner",
+    "entflags:jungle_magenta_wall_hanging_banner",
+    "entflags:jungle_light_blue_hanging_banner",
+    "entflags:jungle_light_blue_wall_hanging_banner",
+    "entflags:jungle_yellow_hanging_banner",
+    "entflags:jungle_yellow_wall_hanging_banner",
+    "entflags:jungle_lime_hanging_banner",
+    "entflags:jungle_lime_wall_hanging_banner",
+    "entflags:jungle_pink_hanging_banner",
+    "entflags:jungle_pink_wall_hanging_banner",
+    "entflags:jungle_gray_hanging_banner",
+    "entflags:jungle_gray_wall_hanging_banner",
+    "entflags:jungle_light_gray_hanging_banner",
+    "entflags:jungle_light_gray_wall_hanging_banner",
+    "entflags:jungle_cyan_hanging_banner",
+    "entflags:jungle_cyan_wall_hanging_banner",
+    "entflags:jungle_purple_hanging_banner",
+    "entflags:jungle_purple_wall_hanging_banner",
+    "entflags:jungle_blue_hanging_banner",
+    "entflags:jungle_blue_wall_hanging_banner",
+    "entflags:jungle_brown_hanging_banner",
+    "entflags:jungle_brown_wall_hanging_banner",
+    "entflags:jungle_green_hanging_banner",
+    "entflags:jungle_green_wall_hanging_banner",
+    "entflags:jungle_red_hanging_banner",
+    "entflags:jungle_red_wall_hanging_banner",
+    "entflags:jungle_black_hanging_banner",
+    "entflags:jungle_black_wall_hanging_banner",
+    "entflags:acacia_white_hanging_banner",
+    "entflags:acacia_white_wall_hanging_banner",
+    "entflags:acacia_orange_hanging_banner",
+    "entflags:acacia_orange_wall_hanging_banner",
+    "entflags:acacia_magenta_hanging_banner",
+    "entflags:acacia_magenta_wall_hanging_banner",
+    "entflags:acacia_light_blue_hanging_banner",
+    "entflags:acacia_light_blue_wall_hanging_banner",
+    "entflags:acacia_yellow_hanging_banner",
+    "entflags:acacia_yellow_wall_hanging_banner",
+    "entflags:acacia_lime_hanging_banner",
+    "entflags:acacia_lime_wall_hanging_banner",
+    "entflags:acacia_pink_hanging_banner",
+    "entflags:acacia_pink_wall_hanging_banner",
+    "entflags:acacia_gray_hanging_banner",
+    "entflags:acacia_gray_wall_hanging_banner",
+    "entflags:acacia_light_gray_hanging_banner",
+    "entflags:acacia_light_gray_wall_hanging_banner",
+    "entflags:acacia_cyan_hanging_banner",
+    "entflags:acacia_cyan_wall_hanging_banner",
+    "entflags:acacia_purple_hanging_banner",
+    "entflags:acacia_purple_wall_hanging_banner",
+    "entflags:acacia_blue_hanging_banner",
+    "entflags:acacia_blue_wall_hanging_banner",
+    "entflags:acacia_brown_hanging_banner",
+    "entflags:acacia_brown_wall_hanging_banner",
+    "entflags:acacia_green_hanging_banner",
+    "entflags:acacia_green_wall_hanging_banner",
+    "entflags:acacia_red_hanging_banner",
+    "entflags:acacia_red_wall_hanging_banner",
+    "entflags:acacia_black_hanging_banner",
+    "entflags:acacia_black_wall_hanging_banner",
+    "entflags:dark_oak_white_hanging_banner",
+    "entflags:dark_oak_white_wall_hanging_banner",
+    "entflags:dark_oak_orange_hanging_banner",
+    "entflags:dark_oak_orange_wall_hanging_banner",
+    "entflags:dark_oak_magenta_hanging_banner",
+    "entflags:dark_oak_magenta_wall_hanging_banner",
+    "entflags:dark_oak_light_blue_hanging_banner",
+    "entflags:dark_oak_light_blue_wall_hanging_banner",
+    "entflags:dark_oak_yellow_hanging_banner",
+    "entflags:dark_oak_yellow_wall_hanging_banner",
+    "entflags:dark_oak_lime_hanging_banner",
+    "entflags:dark_oak_lime_wall_hanging_banner",
+    "entflags:dark_oak_pink_hanging_banner",
+    "entflags:dark_oak_pink_wall_hanging_banner",
+    "entflags:dark_oak_gray_hanging_banner",
+    "entflags:dark_oak_gray_wall_hanging_banner",
+    "entflags:dark_oak_light_gray_hanging_banner",
+    "entflags:dark_oak_light_gray_wall_hanging_banner",
+    "entflags:dark_oak_cyan_hanging_banner",
+    "entflags:dark_oak_cyan_wall_hanging_banner",
+    "entflags:dark_oak_purple_hanging_banner",
+    "entflags:dark_oak_purple_wall_hanging_banner",
+    "entflags:dark_oak_blue_hanging_banner",
+    "entflags:dark_oak_blue_wall_hanging_banner",
+    "entflags:dark_oak_brown_hanging_banner",
+    "entflags:dark_oak_brown_wall_hanging_banner",
+    "entflags:dark_oak_green_hanging_banner",
+    "entflags:dark_oak_green_wall_hanging_banner",
+    "entflags:dark_oak_red_hanging_banner",
+    "entflags:dark_oak_red_wall_hanging_banner",
+    "entflags:dark_oak_black_hanging_banner",
+    "entflags:dark_oak_black_wall_hanging_banner",
+    "entflags:pale_oak_white_hanging_banner",
+    "entflags:pale_oak_white_wall_hanging_banner",
+    "entflags:pale_oak_orange_hanging_banner",
+    "entflags:pale_oak_orange_wall_hanging_banner",
+    "entflags:pale_oak_magenta_hanging_banner",
+    "entflags:pale_oak_magenta_wall_hanging_banner",
+    "entflags:pale_oak_light_blue_hanging_banner",
+    "entflags:pale_oak_light_blue_wall_hanging_banner",
+    "entflags:pale_oak_yellow_hanging_banner",
+    "entflags:pale_oak_yellow_wall_hanging_banner",
+    "entflags:pale_oak_lime_hanging_banner",
+    "entflags:pale_oak_lime_wall_hanging_banner",
+    "entflags:pale_oak_pink_hanging_banner",
+    "entflags:pale_oak_pink_wall_hanging_banner",
+    "entflags:pale_oak_gray_hanging_banner",
+    "entflags:pale_oak_gray_wall_hanging_banner",
+    "entflags:pale_oak_light_gray_hanging_banner",
+    "entflags:pale_oak_light_gray_wall_hanging_banner",
+    "entflags:pale_oak_cyan_hanging_banner",
+    "entflags:pale_oak_cyan_wall_hanging_banner",
+    "entflags:pale_oak_purple_hanging_banner",
+    "entflags:pale_oak_purple_wall_hanging_banner",
+    "entflags:pale_oak_blue_hanging_banner",
+    "entflags:pale_oak_blue_wall_hanging_banner",
+    "entflags:pale_oak_brown_hanging_banner",
+    "entflags:pale_oak_brown_wall_hanging_banner",
+    "entflags:pale_oak_green_hanging_banner",
+    "entflags:pale_oak_green_wall_hanging_banner",
+    "entflags:pale_oak_red_hanging_banner",
+    "entflags:pale_oak_red_wall_hanging_banner",
+    "entflags:pale_oak_black_hanging_banner",
+    "entflags:pale_oak_black_wall_hanging_banner",
+    "entflags:mangrove_white_hanging_banner",
+    "entflags:mangrove_white_wall_hanging_banner",
+    "entflags:mangrove_orange_hanging_banner",
+    "entflags:mangrove_orange_wall_hanging_banner",
+    "entflags:mangrove_magenta_hanging_banner",
+    "entflags:mangrove_magenta_wall_hanging_banner",
+    "entflags:mangrove_light_blue_hanging_banner",
+    "entflags:mangrove_light_blue_wall_hanging_banner",
+    "entflags:mangrove_yellow_hanging_banner",
+    "entflags:mangrove_yellow_wall_hanging_banner",
+    "entflags:mangrove_lime_hanging_banner",
+    "entflags:mangrove_lime_wall_hanging_banner",
+    "entflags:mangrove_pink_hanging_banner",
+    "entflags:mangrove_pink_wall_hanging_banner",
+    "entflags:mangrove_gray_hanging_banner",
+    "entflags:mangrove_gray_wall_hanging_banner",
+    "entflags:mangrove_light_gray_hanging_banner",
+    "entflags:mangrove_light_gray_wall_hanging_banner",
+    "entflags:mangrove_cyan_hanging_banner",
+    "entflags:mangrove_cyan_wall_hanging_banner",
+    "entflags:mangrove_purple_hanging_banner",
+    "entflags:mangrove_purple_wall_hanging_banner",
+    "entflags:mangrove_blue_hanging_banner",
+    "entflags:mangrove_blue_wall_hanging_banner",
+    "entflags:mangrove_brown_hanging_banner",
+    "entflags:mangrove_brown_wall_hanging_banner",
+    "entflags:mangrove_green_hanging_banner",
+    "entflags:mangrove_green_wall_hanging_banner",
+    "entflags:mangrove_red_hanging_banner",
+    "entflags:mangrove_red_wall_hanging_banner",
+    "entflags:mangrove_black_hanging_banner",
+    "entflags:mangrove_black_wall_hanging_banner",
+    "entflags:cherry_white_hanging_banner",
+    "entflags:cherry_white_wall_hanging_banner",
+    "entflags:cherry_orange_hanging_banner",
+    "entflags:cherry_orange_wall_hanging_banner",
+    "entflags:cherry_magenta_hanging_banner",
+    "entflags:cherry_magenta_wall_hanging_banner",
+    "entflags:cherry_light_blue_hanging_banner",
+    "entflags:cherry_light_blue_wall_hanging_banner",
+    "entflags:cherry_yellow_hanging_banner",
+    "entflags:cherry_yellow_wall_hanging_banner",
+    "entflags:cherry_lime_hanging_banner",
+    "entflags:cherry_lime_wall_hanging_banner",
+    "entflags:cherry_pink_hanging_banner",
+    "entflags:cherry_pink_wall_hanging_banner",
+    "entflags:cherry_gray_hanging_banner",
+    "entflags:cherry_gray_wall_hanging_banner",
+    "entflags:cherry_light_gray_hanging_banner",
+    "entflags:cherry_light_gray_wall_hanging_banner",
+    "entflags:cherry_cyan_hanging_banner",
+    "entflags:cherry_cyan_wall_hanging_banner",
+    "entflags:cherry_purple_hanging_banner",
+    "entflags:cherry_purple_wall_hanging_banner",
+    "entflags:cherry_blue_hanging_banner",
+    "entflags:cherry_blue_wall_hanging_banner",
+    "entflags:cherry_brown_hanging_banner",
+    "entflags:cherry_brown_wall_hanging_banner",
+    "entflags:cherry_green_hanging_banner",
+    "entflags:cherry_green_wall_hanging_banner",
+    "entflags:cherry_red_hanging_banner",
+    "entflags:cherry_red_wall_hanging_banner",
+    "entflags:cherry_black_hanging_banner",
+    "entflags:cherry_black_wall_hanging_banner",
+    "entflags:bamboo_white_hanging_banner",
+    "entflags:bamboo_white_wall_hanging_banner",
+    "entflags:bamboo_orange_hanging_banner",
+    "entflags:bamboo_orange_wall_hanging_banner",
+    "entflags:bamboo_magenta_hanging_banner",
+    "entflags:bamboo_magenta_wall_hanging_banner",
+    "entflags:bamboo_light_blue_hanging_banner",
+    "entflags:bamboo_light_blue_wall_hanging_banner",
+    "entflags:bamboo_yellow_hanging_banner",
+    "entflags:bamboo_yellow_wall_hanging_banner",
+    "entflags:bamboo_lime_hanging_banner",
+    "entflags:bamboo_lime_wall_hanging_banner",
+    "entflags:bamboo_pink_hanging_banner",
+    "entflags:bamboo_pink_wall_hanging_banner",
+    "entflags:bamboo_gray_hanging_banner",
+    "entflags:bamboo_gray_wall_hanging_banner",
+    "entflags:bamboo_light_gray_hanging_banner",
+    "entflags:bamboo_light_gray_wall_hanging_banner",
+    "entflags:bamboo_cyan_hanging_banner",
+    "entflags:bamboo_cyan_wall_hanging_banner",
+    "entflags:bamboo_purple_hanging_banner",
+    "entflags:bamboo_purple_wall_hanging_banner",
+    "entflags:bamboo_blue_hanging_banner",
+    "entflags:bamboo_blue_wall_hanging_banner",
+    "entflags:bamboo_brown_hanging_banner",
+    "entflags:bamboo_brown_wall_hanging_banner",
+    "entflags:bamboo_green_hanging_banner",
+    "entflags:bamboo_green_wall_hanging_banner",
+    "entflags:bamboo_red_hanging_banner",
+    "entflags:bamboo_red_wall_hanging_banner",
+    "entflags:bamboo_black_hanging_banner",
+    "entflags:bamboo_black_wall_hanging_banner",
+    "entflags:crimson_white_hanging_banner",
+    "entflags:crimson_white_wall_hanging_banner",
+    "entflags:crimson_orange_hanging_banner",
+    "entflags:crimson_orange_wall_hanging_banner",
+    "entflags:crimson_magenta_hanging_banner",
+    "entflags:crimson_magenta_wall_hanging_banner",
+    "entflags:crimson_light_blue_hanging_banner",
+    "entflags:crimson_light_blue_wall_hanging_banner",
+    "entflags:crimson_yellow_hanging_banner",
+    "entflags:crimson_yellow_wall_hanging_banner",
+    "entflags:crimson_lime_hanging_banner",
+    "entflags:crimson_lime_wall_hanging_banner",
+    "entflags:crimson_pink_hanging_banner",
+    "entflags:crimson_pink_wall_hanging_banner",
+    "entflags:crimson_gray_hanging_banner",
+    "entflags:crimson_gray_wall_hanging_banner",
+    "entflags:crimson_light_gray_hanging_banner",
+    "entflags:crimson_light_gray_wall_hanging_banner",
+    "entflags:crimson_cyan_hanging_banner",
+    "entflags:crimson_cyan_wall_hanging_banner",
+    "entflags:crimson_purple_hanging_banner",
+    "entflags:crimson_purple_wall_hanging_banner",
+    "entflags:crimson_blue_hanging_banner",
+    "entflags:crimson_blue_wall_hanging_banner",
+    "entflags:crimson_brown_hanging_banner",
+    "entflags:crimson_brown_wall_hanging_banner",
+    "entflags:crimson_green_hanging_banner",
+    "entflags:crimson_green_wall_hanging_banner",
+    "entflags:crimson_red_hanging_banner",
+    "entflags:crimson_red_wall_hanging_banner",
+    "entflags:crimson_black_hanging_banner",
+    "entflags:crimson_black_wall_hanging_banner",
+    "entflags:warped_white_hanging_banner",
+    "entflags:warped_white_wall_hanging_banner",
+    "entflags:warped_orange_hanging_banner",
+    "entflags:warped_orange_wall_hanging_banner",
+    "entflags:warped_magenta_hanging_banner",
+    "entflags:warped_magenta_wall_hanging_banner",
+    "entflags:warped_light_blue_hanging_banner",
+    "entflags:warped_light_blue_wall_hanging_banner",
+    "entflags:warped_yellow_hanging_banner",
+    "entflags:warped_yellow_wall_hanging_banner",
+    "entflags:warped_lime_hanging_banner",
+    "entflags:warped_lime_wall_hanging_banner",
+    "entflags:warped_pink_hanging_banner",
+    "entflags:warped_pink_wall_hanging_banner",
+    "entflags:warped_gray_hanging_banner",
+    "entflags:warped_gray_wall_hanging_banner",
+    "entflags:warped_light_gray_hanging_banner",
+    "entflags:warped_light_gray_wall_hanging_banner",
+    "entflags:warped_cyan_hanging_banner",
+    "entflags:warped_cyan_wall_hanging_banner",
+    "entflags:warped_purple_hanging_banner",
+    "entflags:warped_purple_wall_hanging_banner",
+    "entflags:warped_blue_hanging_banner",
+    "entflags:warped_blue_wall_hanging_banner",
+    "entflags:warped_brown_hanging_banner",
+    "entflags:warped_brown_wall_hanging_banner",
+    "entflags:warped_green_hanging_banner",
+    "entflags:warped_green_wall_hanging_banner",
+    "entflags:warped_red_hanging_banner",
+    "entflags:warped_red_wall_hanging_banner",
+    "entflags:warped_black_hanging_banner",
+    "entflags:warped_black_wall_hanging_banner",
+    {
+      "id": "entflags:fir_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:fir_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:pine_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:maple_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:redwood_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:mahogany_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:jacaranda_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:palm_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dead_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:magic_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:umbran_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:hellbark_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_white_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_white_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_orange_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_orange_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_magenta_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_magenta_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_light_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_light_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_yellow_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_yellow_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_lime_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_lime_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_pink_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_pink_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_light_gray_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_light_gray_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_cyan_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_cyan_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_purple_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_purple_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_blue_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_blue_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_brown_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_brown_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_green_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_green_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_red_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_red_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_black_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:empyreal_black_wall_hanging_banner_bop",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:dragon_tree_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:end_lotus_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:helix_tree_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:jellyshroom_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lacugrove_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:lucernia_jellyshroom_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:mossy_glowshroom_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:pythadendron_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:tenanea_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_white_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_white_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_orange_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_orange_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_magenta_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_magenta_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_light_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_light_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_yellow_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_yellow_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_lime_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_lime_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_pink_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_pink_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_light_gray_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_light_gray_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_cyan_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_cyan_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_purple_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_purple_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_blue_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_blue_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_brown_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_brown_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_green_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_green_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_red_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_red_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_black_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:umbrella_tree_black_wall_hanging_banner_betterend",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:anchor_tree_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:mushroom_fir_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_mushroom_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_reed_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:nether_sakura_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:rubeus_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:stalagnate_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:wart_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_white_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_white_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_orange_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_orange_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_magenta_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_magenta_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_light_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_light_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_yellow_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_yellow_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_lime_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_lime_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_pink_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_pink_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_light_gray_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_light_gray_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_cyan_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_cyan_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_purple_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_purple_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_blue_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_blue_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_brown_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_brown_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_green_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_green_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_red_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_red_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_black_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:willow_black_wall_hanging_banner_betternether",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_white_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_white_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_orange_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_orange_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_magenta_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_magenta_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_light_blue_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_light_blue_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_yellow_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_yellow_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_lime_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_lime_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_pink_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_pink_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_gray_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_gray_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_light_gray_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_light_gray_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_cyan_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_cyan_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_purple_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_purple_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_blue_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_blue_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_brown_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_brown_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_green_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_green_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_red_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_red_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_black_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_black_wall_hanging_banner_aether",
+      "required": false
+    }
   ]
 }

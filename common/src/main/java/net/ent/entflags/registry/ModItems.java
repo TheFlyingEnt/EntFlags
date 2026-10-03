@@ -1,9 +1,12 @@
 package net.ent.entflags.registry;
 
 import java.util.EnumMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 import net.ent.entflags.Constants;
+import net.ent.entflags.block.HangingBannerWood;
+import net.ent.entflags.item.HangingBannerItem;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
@@ -16,6 +19,7 @@ import net.minecraft.world.level.block.entity.BannerPatternLayers;
 public final class ModItems {
 
 	public static final Map<DyeColor, Item> ITEMS = new EnumMap<>(DyeColor.class);
+	public static final Map<HangingBannerWood, Map<DyeColor, Item>> HANGING_BANNERS = new LinkedHashMap<>();
 
 	private ModItems() {
 	}
@@ -36,6 +40,26 @@ public final class ModItems {
 
 			ITEMS.put(color, item);
 			sink.accept(id(name), item);
+		}
+
+		for (HangingBannerWood wood : ModBlocks.HANGING.keySet()) {
+			Map<DyeColor, Item> byColor = new EnumMap<>(DyeColor.class);
+			for (DyeColor color : DyeColor.values()) {
+				String name = wood.id(color, false);
+
+				Item item = new HangingBannerItem(
+					ModBlocks.HANGING.get(wood).get(color),
+					ModBlocks.WALL_HANGING.get(wood).get(color),
+					new Item.Properties()
+						.setId(ResourceKey.create(Registries.ITEM, id(name)))
+						.stacksTo(16)
+						.component(DataComponents.BANNER_PATTERNS, BannerPatternLayers.EMPTY)
+				);
+
+				byColor.put(color, item);
+				sink.accept(id(name), item);
+			}
+			HANGING_BANNERS.put(wood, byColor);
 		}
 	}
 

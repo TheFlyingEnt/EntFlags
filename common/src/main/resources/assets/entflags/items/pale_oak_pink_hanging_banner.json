@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/pale_oak_hanging_banner",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "pale_oak",
+      "color": "pink"
+    }
+  }
+}

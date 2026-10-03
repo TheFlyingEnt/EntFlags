@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:bamboo_hanging_banner",
+  "log": "minecraft:stripped_bamboo_block",
+  "color": "white",
+  "result": "entflags:bamboo_white_hanging_banner"
+}

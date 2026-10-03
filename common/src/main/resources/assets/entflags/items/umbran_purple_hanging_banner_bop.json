@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/umbran_hanging_banner_bop",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "umbran_bop",
+      "color": "purple"
+    }
+  }
+}

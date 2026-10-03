@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:crimson_hanging_banner",
+  "log": "minecraft:stripped_crimson_stem",
+  "color": "blue",
+  "result": "entflags:crimson_blue_hanging_banner"
+}

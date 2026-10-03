@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/lucernia_jellyshroom_hanging_banner_betterend",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "lucernia_jellyshroom_betterend",
+      "color": "black"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:jellyshroom_stripped_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:jellyshroom_white_hanging_banner_betterend",
+      "entflags:jellyshroom_orange_hanging_banner_betterend",
+      "entflags:jellyshroom_magenta_hanging_banner_betterend",
+      "entflags:jellyshroom_light_blue_hanging_banner_betterend",
+      "entflags:jellyshroom_yellow_hanging_banner_betterend",
+      "entflags:jellyshroom_lime_hanging_banner_betterend",
+      "entflags:jellyshroom_pink_hanging_banner_betterend",
+      "entflags:jellyshroom_gray_hanging_banner_betterend",
+      "entflags:jellyshroom_light_gray_hanging_banner_betterend",
+      "entflags:jellyshroom_cyan_hanging_banner_betterend",
+      "entflags:jellyshroom_purple_hanging_banner_betterend",
+      "entflags:jellyshroom_blue_hanging_banner_betterend",
+      "entflags:jellyshroom_brown_hanging_banner_betterend",
+      "entflags:jellyshroom_green_hanging_banner_betterend",
+      "entflags:jellyshroom_red_hanging_banner_betterend",
+      "entflags:jellyshroom_black_hanging_banner_betterend"
+    ]
+  }
+}

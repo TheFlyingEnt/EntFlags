@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/maple_hanging_banner_bop",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "maple_bop",
+      "color": "brown"
+    }
+  }
+}

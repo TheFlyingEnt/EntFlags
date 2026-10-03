@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/jacaranda_hanging_banner_bop",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "jacaranda_bop",
+      "color": "green"
+    }
+  }
+}

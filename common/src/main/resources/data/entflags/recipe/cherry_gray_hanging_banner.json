@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:cherry_hanging_banner",
+  "log": "minecraft:stripped_cherry_log",
+  "color": "gray",
+  "result": "entflags:cherry_gray_hanging_banner"
+}

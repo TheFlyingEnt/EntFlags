@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/bamboo_hanging_banner",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "bamboo",
+      "color": "black"
+    }
+  }
+}

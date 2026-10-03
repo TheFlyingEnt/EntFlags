@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/empyreal_hanging_banner_bop",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "empyreal_bop",
+      "color": "gray"
+    }
+  }
+}

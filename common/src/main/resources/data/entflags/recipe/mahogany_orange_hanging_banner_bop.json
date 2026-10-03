@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomesoplenty"
+      ]
+    }
+  ],
+  "group": "entflags:mahogany_hanging_banner_bop",
+  "log": "biomesoplenty:stripped_mahogany_log",
+  "color": "orange",
+  "result": "entflags:mahogany_orange_hanging_banner_bop"
+}

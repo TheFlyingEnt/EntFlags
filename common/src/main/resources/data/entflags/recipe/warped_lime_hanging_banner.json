@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:warped_hanging_banner",
+  "log": "minecraft:stripped_warped_stem",
+  "color": "lime",
+  "result": "entflags:warped_lime_hanging_banner"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "entflags:hanging_banner",
+  "group": "entflags:spruce_hanging_banner",
+  "log": "minecraft:stripped_spruce_log",
+  "color": "gray",
+  "result": "entflags:spruce_gray_hanging_banner"
+}

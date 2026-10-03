@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "entflags:item/spruce_hanging_banner",
+    "model": {
+      "type": "entflags:hanging_banner",
+      "wood": "spruce",
+      "color": "light_gray"
+    }
+  }
+}
