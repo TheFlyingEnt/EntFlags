@@ -9,6 +9,7 @@ import net.ent.entflags.registry.ModCreativeTab;
 import net.ent.entflags.registry.ModItems;
 import net.ent.entflags.registry.ModRecipes;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.core.BlockPos;
@@ -31,6 +32,7 @@ public class EntFlags implements ModInitializer {
 		ModBlockEntities.registerBlockEntities(EntFlags::createBlockEntityType,
 			(id, type) -> Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, id, type));
 		ModRecipes.registerRecipeSerializers((id, serializer) -> Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, id, serializer));
+		ModCreativeTab.registerCreativeTab(FabricItemGroup::builder, (id, tab) -> Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, id, tab));
 
 		ItemGroupEvents.modifyEntriesEvent(ModCreativeTab.COLORED_BLOCKS).register(entries -> {
 			entries.addAfter(ModCreativeTab.bannerAnchor(), ModCreativeTab.flagStacks());

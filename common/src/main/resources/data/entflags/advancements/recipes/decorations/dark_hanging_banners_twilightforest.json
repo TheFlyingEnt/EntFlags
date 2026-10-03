@@ -1,0 +1,56 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "twilightforest"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightforest:stripped_dark_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entflags:dark_white_hanging_banner_twilightforest",
+      "entflags:dark_orange_hanging_banner_twilightforest",
+      "entflags:dark_magenta_hanging_banner_twilightforest",
+      "entflags:dark_light_blue_hanging_banner_twilightforest",
+      "entflags:dark_yellow_hanging_banner_twilightforest",
+      "entflags:dark_lime_hanging_banner_twilightforest",
+      "entflags:dark_pink_hanging_banner_twilightforest",
+      "entflags:dark_gray_hanging_banner_twilightforest",
+      "entflags:dark_light_gray_hanging_banner_twilightforest",
+      "entflags:dark_cyan_hanging_banner_twilightforest",
+      "entflags:dark_purple_hanging_banner_twilightforest",
+      "entflags:dark_blue_hanging_banner_twilightforest",
+      "entflags:dark_brown_hanging_banner_twilightforest",
+      "entflags:dark_green_hanging_banner_twilightforest",
+      "entflags:dark_red_hanging_banner_twilightforest",
+      "entflags:dark_black_hanging_banner_twilightforest"
+    ]
+  }
+}

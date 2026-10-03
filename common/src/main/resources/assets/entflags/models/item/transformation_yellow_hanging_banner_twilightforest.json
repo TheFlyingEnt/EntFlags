@@ -1,0 +1,6 @@
+{
+  "parent": "entflags:item/template_hanging_banner",
+  "textures": {
+    "particle": "twilightforest:block/stripped_transformation_log"
+  }
+}

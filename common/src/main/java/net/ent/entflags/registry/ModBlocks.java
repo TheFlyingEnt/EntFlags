@@ -56,6 +56,12 @@ public final class ModBlocks {
 		if (CommonClass.isBetterNetherEnabled()) {
 			woods.addAll(HangingBannerWood.BETTER_NETHER);
 		}
+		if (CommonClass.isTwilightForestEnabled()) {
+			woods.addAll(HangingBannerWood.TWILIGHT_FOREST);
+		}
+		if (CommonClass.isAetherEnabled()) {
+			woods.addAll(HangingBannerWood.AETHER);
+		}
 
 		for (HangingBannerWood wood : woods) {
 			Map<DyeColor, Block> hangingByColor = new EnumMap<>(DyeColor.class);

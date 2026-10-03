@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "twilightforest"
+      ]
+    }
+  ],
+  "group": "entflags:twilight_oak_hanging_banner_twilightforest",
+  "log": "twilightforest:stripped_twilight_oak_log",
+  "color": "cyan",
+  "result": "entflags:twilight_oak_cyan_hanging_banner_twilightforest"
+}

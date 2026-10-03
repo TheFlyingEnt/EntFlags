@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "aether"
+      ]
+    }
+  ],
+  "group": "entflags:skyroot_hanging_banner_aether",
+  "log": "aether:stripped_skyroot_log",
+  "color": "light_gray",
+  "result": "entflags:skyroot_light_gray_hanging_banner_aether"
+}

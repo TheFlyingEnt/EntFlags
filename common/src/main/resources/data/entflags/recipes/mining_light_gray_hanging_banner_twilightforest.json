@@ -1,0 +1,21 @@
+{
+  "type": "entflags:hanging_banner",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "twilightforest"
+      ]
+    }
+  ],
+  "group": "entflags:mining_hanging_banner_twilightforest",
+  "log": "twilightforest:stripped_mining_log",
+  "color": "light_gray",
+  "result": "entflags:mining_light_gray_hanging_banner_twilightforest"
+}

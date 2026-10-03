@@ -46,6 +46,17 @@ public record HangingBannerWood(String name, String textureFolder, String idSuff
 		() -> BlockBehaviour.Properties.copy(Blocks.CRIMSON_HANGING_SIGN),
 		"anchor_tree", "mushroom_fir", "nether_mushroom", "nether_reed", "nether_sakura", "rubeus", "stalagnate", "wart", "willow");
 
+	// Twilight Forest's mangrove clashes with vanilla's, hence the suffix.
+	public static final String TWILIGHT_FOREST_ID = "twilightforest";
+	public static final List<HangingBannerWood> TWILIGHT_FOREST = modded(TWILIGHT_FOREST_ID, "twilightforest/", "_twilightforest",
+		() -> BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN),
+		"twilight_oak", "canopy", "mangrove", "dark", "time", "transformation", "mining", "sorting");
+
+	public static final String AETHER_ID = "aether";
+	public static final List<HangingBannerWood> AETHER = modded(AETHER_ID, "aether/", "_aether",
+		() -> BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN),
+		"skyroot");
+
 	private static HangingBannerWood vanilla(String name, Supplier<BlockBehaviour.Properties> properties) {
 		return new HangingBannerWood(name, "", "", null, properties);
 	}

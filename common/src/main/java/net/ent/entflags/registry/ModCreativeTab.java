@@ -3,8 +3,11 @@ package net.ent.entflags.registry;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Supplier;
 
+import net.ent.entflags.Constants;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -61,14 +64,22 @@ public final class ModCreativeTab {
 		return ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(path));
 	}
 
-	public static final ResourceLocation ID = new ResourceLocation(net.ent.entflags.Constants.MOD_ID, "flags");
+	public static final ResourceLocation ID = new ResourceLocation(Constants.MOD_ID, "flags");
 	public static final ResourceKey<CreativeModeTab> TAB_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ID);
 
-	/*public static void registerCreativeTab(Registration.CreativeTabSink sink) {
-	    CreativeModeTab tab = CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
-	        .title(net.minecraft.network.chat.Component.translatable("itemGroup." + net.ent.entflags.Constants.MOD_ID + ".flags"))
-	        .icon(() -> new ItemStack(ModItems.ITEMS.get(DyeColor.WHITE)))
-	        .build();
-	    sink.accept(ID, tab);
-	}*/
+	/**
+	 * "Ent's Flags" tab with every flag, then every hanging banner (by wood). The flags also stay in the vanilla
+	 * Colored/Functional Blocks tabs. Each loader passes its own builder (Fabric's pages modded tabs properly).
+	 */
+	public static void registerCreativeTab(Supplier<CreativeModeTab.Builder> builderFactory, Registration.CreativeTabSink sink) {
+		CreativeModeTab tab = builderFactory.get()
+			.title(Component.translatable("itemGroup." + Constants.MOD_ID + ".flags"))
+			.icon(() -> new ItemStack(ModItems.ITEMS.get(DyeColor.WHITE)))
+			.displayItems((parameters, output) -> {
+				flagStacks().forEach(output::accept);
+				hangingBannerStacks().forEach(output::accept);
+			})
+			.build();
+		sink.accept(ID, tab);
+	}
 }

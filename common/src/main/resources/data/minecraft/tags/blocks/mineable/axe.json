@@ -4608,6 +4608,1158 @@
     {
       "id": "entflags:willow_black_wall_hanging_banner_betternether",
       "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:twilight_oak_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:canopy_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mangrove_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:dark_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:time_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:transformation_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:mining_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_white_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_white_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_orange_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_orange_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_magenta_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_magenta_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_light_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_light_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_yellow_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_yellow_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_lime_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_lime_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_pink_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_pink_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_light_gray_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_light_gray_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_cyan_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_cyan_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_purple_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_purple_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_blue_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_blue_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_brown_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_brown_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_green_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_green_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_red_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_red_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_black_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:sorting_black_wall_hanging_banner_twilightforest",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_white_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_white_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_orange_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_orange_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_magenta_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_magenta_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_light_blue_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_light_blue_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_yellow_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_yellow_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_lime_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_lime_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_pink_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_pink_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_gray_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_gray_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_light_gray_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_light_gray_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_cyan_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_cyan_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_purple_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_purple_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_blue_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_blue_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_brown_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_brown_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_green_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_green_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_red_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_red_wall_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_black_hanging_banner_aether",
+      "required": false
+    },
+    {
+      "id": "entflags:skyroot_black_wall_hanging_banner_aether",
+      "required": false
     }
   ]
 }

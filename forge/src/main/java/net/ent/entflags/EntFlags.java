@@ -48,6 +48,7 @@ public class EntFlags {
 		event.register(Registries.ITEM, helper -> ModItems.registerItems(ForgeHorizontalBannerItem::new, ForgeHangingBannerItem::new, helper::register));
 		event.register(Registries.BLOCK_ENTITY_TYPE, helper -> ModBlockEntities.registerBlockEntities(EntFlags::createBlockEntityType, helper::register));
 		event.register(Registries.RECIPE_SERIALIZER, helper -> ModRecipes.registerRecipeSerializers(helper::register));
+		event.register(Registries.CREATIVE_MODE_TAB, helper -> ModCreativeTab.registerCreativeTab(CreativeModeTab::builder, helper::register));
 	}
 
 	private static <T extends BlockEntity> BlockEntityType<T> createBlockEntityType(BiFunction<BlockPos, BlockState, T> factory, Block... blocks) {
