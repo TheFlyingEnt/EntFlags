@@ -11,7 +11,6 @@ public class HangingBannerRenderState extends BlockEntityRenderState {
 	public BannerPatternLayers patterns = BannerPatternLayers.EMPTY;
 	public float phase;
 	public float angle;
-	/** 0/1/2, see {@link HangingBannerFlagModel}. */
 	public int hangingState = HangingBannerFlagModel.TWO_CHAINS;
 	public Identifier texture;
 }

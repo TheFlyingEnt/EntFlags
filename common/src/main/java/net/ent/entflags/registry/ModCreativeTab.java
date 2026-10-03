@@ -37,13 +37,11 @@ public final class ModCreativeTab {
 		return new ItemStack(Items.BANNER.pick(last));
 	}
 
-	// Hanging banners go right after the last (pink) flag.
 	public static ItemStack flagAnchor() {
 		DyeColor last = GAMEPLAY_COLOR_ORDER.get(GAMEPLAY_COLOR_ORDER.size() - 1);
 		return new ItemStack(ModItems.ITEMS.get(last));
 	}
 
-	// Grouped by wood (in registration order), each wood in the banner color order.
 	public static List<ItemStack> hangingBannerStacks() {
 		List<ItemStack> stacks = new ArrayList<>();
 		for (Map<DyeColor, Item> byColor : ModItems.HANGING_BANNERS.values()) {
@@ -54,7 +52,6 @@ public final class ModCreativeTab {
 		return stacks;
 	}
 
-	/** Everything for the "Ent's Flags" tab: every flag, then every hanging banner. */
 	public static List<ItemStack> allStacks() {
 		List<ItemStack> stacks = new ArrayList<>(flagStacks());
 		stacks.addAll(hangingBannerStacks());
@@ -76,15 +73,10 @@ public final class ModCreativeTab {
 	public static final Identifier ID = Identifier.fromNamespaceAndPath(Constants.MOD_ID, "flags");
 	public static final ResourceKey<CreativeModeTab> TAB_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ID);
 	
-	/**
-	 * Registers the "Ent's Flags" tab (title + icon). Its contents are added by each loader's creative tab event
-	 * (see allStacks), since CreativeModeTab.Output isn't accessible from common in 26.2. The flags and hanging
-	 * banners also stay in the vanilla Colored/Functional Blocks tabs.
-	 */
 	public static void registerCreativeTab(Supplier<CreativeModeTab.Builder> builderFactory, Registration.CreativeTabSink sink) {
 		CreativeModeTab tab = builderFactory.get()
 			.title(Component.translatable("itemGroup." + Constants.MOD_ID + ".flags"))
-			.icon(() -> new ItemStack(ModItems.ITEMS.get(DyeColor.WHITE)))
+			.icon(() -> new ItemStack(ModItems.ITEMS.get(DyeColor.RED)))
 			.build();
 		sink.accept(ID, tab);
 	}

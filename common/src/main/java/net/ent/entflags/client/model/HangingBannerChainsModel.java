@@ -4,14 +4,12 @@ import net.minecraft.client.model.Model;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
 
-/** The bar and chains of a hanging banner; the state (see {@link HangingBannerFlagModel}) picks which ones show. */
 public class HangingBannerChainsModel extends Model<Integer> {
 	private final ModelPart bar;
 	private final ModelPart chains;
 	private final ModelPart vChain;
 
 	public HangingBannerChainsModel(ModelPart modelPart) {
-		// entityCutout doesn't cull back faces in 26.2, which the zero-thickness chains need (like vanilla's hanging sign).
 		super(modelPart, RenderTypes::entityCutout);
 		modelPart.getChild(HangingBannerFlagModel.FLAG).visible = false;
 		this.bar = modelPart.getChild(HangingBannerFlagModel.BAR);

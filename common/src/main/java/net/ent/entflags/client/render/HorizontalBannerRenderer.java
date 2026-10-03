@@ -152,7 +152,6 @@ public class HorizontalBannerRenderer implements BlockEntityRenderer<HorizontalB
 		BannerPatternLayers patterns,
 		ModelFeatureRenderer.@Nullable CrumblingOverlay breakProgress
 	) {
-		// Base color and patterns must be ordered above the cloth (like vanilla), or NeoForge draws them under it (all-white flags).
 		submitPatternLayer(sprites, poseStack, submitNodeCollector.order(1), lightCoords, overlayCoords, flagModel, state, Sheets.BANNER_PATTERN_BASE, baseColor, breakProgress);
 
 		for (int i = 0; i < 16 && i < patterns.layers().size(); i++) {

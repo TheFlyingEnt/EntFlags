@@ -23,7 +23,6 @@ public class EntFlags implements ModInitializer {
 		ModRecipes.registerRecipeSerializers((id, serializer) -> Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, id, serializer));
 		ModCreativeTab.registerCreativeTab(FabricCreativeModeTab::builder, (id, tab) -> Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, id, tab));
 
-		// Flags right after the vanilla banners, then the hanging banners right after the flags.
 		CreativeModeTabEvents.modifyOutputEvent(ModCreativeTab.COLORED_BLOCKS).register(output -> {
 			output.insertAfter(ModCreativeTab.bannerAnchor(), ModCreativeTab.flagStacks());
 			output.insertAfter(ModCreativeTab.flagAnchor(), ModCreativeTab.hangingBannerStacks());

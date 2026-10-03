@@ -16,7 +16,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 
 public record HangingBannerWood(String name, String textureFolder, String idSuffix, @Nullable String modId, Supplier<BlockBehaviour.Properties> properties) {
 
-	// The vanilla woods with hanging signs in 26.2 (pale oak is new here; poplar isn't in 26.2).
 	public static final List<HangingBannerWood> VANILLA = List.of(
 		vanilla("oak", () -> BlockBehaviour.Properties.ofLegacyCopy(Blocks.OAK_HANGING_SIGN)),
 		vanilla("spruce", () -> BlockBehaviour.Properties.ofLegacyCopy(Blocks.SPRUCE_HANGING_SIGN)),

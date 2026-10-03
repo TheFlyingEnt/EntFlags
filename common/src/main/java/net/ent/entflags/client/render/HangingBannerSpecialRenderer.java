@@ -18,7 +18,6 @@ import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BannerPatternLayers;
 
-/** Item form of a hanging banner: {"type": "entflags:hanging_banner", "wood": "oak", "color": "red"}. */
 public class HangingBannerSpecialRenderer implements SpecialModelRenderer<BannerPatternLayers> {
 	private final HangingBannerRenderer renderer;
 	private final HangingBannerWood wood;

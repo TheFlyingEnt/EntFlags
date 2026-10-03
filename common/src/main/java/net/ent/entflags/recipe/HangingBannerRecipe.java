@@ -30,16 +30,6 @@ import net.minecraft.world.item.crafting.display.SlotDisplay;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BannerPatternLayers;
 
-/**
- * Hanging banner recipe (one per wood and color):
- * <pre>
- * C W C   (iron chain, stripped log/stem, iron chain; "chain" became "iron_chain" in 1.21.9)
- *   B     (banner of the matching color)
- * </pre>
- * Like the flag recipe, a non-special CustomRecipe with its own placement + display so it shows in the recipe book
- * (grouped per wood via "group"); assemble() copies the banner's patterns and custom name.
- * JSON: {"type": "entflags:hanging_banner", "group", "log", "color", "result"}.
- */
 public class HangingBannerRecipe extends CustomRecipe {
 
 	public static final MapCodec<HangingBannerRecipe> MAP_CODEC = RecordCodecBuilder.mapCodec(
@@ -99,7 +89,6 @@ public class HangingBannerRecipe extends CustomRecipe {
 		return this.placementInfo;
 	}
 
-	// CraftingInput is already trimmed to the filled area, so the shape can sit anywhere in the grid.
 	public boolean matches(CraftingInput input, Level level) {
 		if (input.width() != 3 || input.height() != 2) {
 			return false;

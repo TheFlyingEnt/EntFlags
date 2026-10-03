@@ -35,7 +35,6 @@ import net.minecraft.world.level.block.state.properties.RotationSegment;
 import net.minecraft.world.phys.Vec3;
 
 public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerBlockEntity, HangingBannerRenderState> {
-	// Same as a vanilla banner; applied to the flag only, the bar/chains stay at hanging-sign scale (1).
 	private static final float FLAG_SIZE = 0.6666667F;
 
 	private final SpriteGetter sprites;
@@ -102,10 +101,6 @@ public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerB
 		poseStack.popPose();
 	}
 
-	/**
-	 * Item form (held, GUI, item frame...): the bar + chains look (state 0), standing still, with the bottom of the
-	 * flag at y = 0 like a vanilla banner item so template_hanging_banner.json can start from vanilla's transforms.
-	 */
 	public void submitItem(
 		PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int lightCoords, int overlayCoords,
 		HangingBannerWood wood, DyeColor baseColor, BannerPatternLayers patterns, int outlineColor
@@ -135,10 +130,8 @@ public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerB
 		poseStack.pushPose();
 		poseStack.scale(1.0F, -1.0F, -1.0F);
 
-		// Bar + chains, with the wood's hanging banner texture.
 		submitNodeCollector.submitModel(this.chainsModel, hangingState, poseStack, texture, lightCoords, overlayCoords, outlineColor, breakProgress);
 
-		// Flag: banner scale, then the cloth + base color + patterns exactly like a flag/vanilla banner.
 		poseStack.scale(FLAG_SIZE, FLAG_SIZE, FLAG_SIZE);
 		submitNodeCollector.submitModel(this.flagModel, phase, poseStack, lightCoords, overlayCoords, -1, Sheets.BANNER_BASE, this.sprites, outlineColor, breakProgress);
 		HorizontalBannerRenderer.submitPatterns(this.sprites, poseStack, submitNodeCollector, lightCoords, overlayCoords, this.flagModel, phase, baseColor, patterns, breakProgress);
@@ -152,7 +145,6 @@ public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerB
 		return ((WallHangingBannerBlock) block).getWood();
 	}
 
-	/** Bounds of the item form, for GUI rendering. */
 	public void getExtents(Consumer<Vector3fc> output) {
 		PoseStack poseStack = new PoseStack();
 		poseStack.translate(0.5F, FLAG_SIZE * HangingBannerFlagModel.BANNER_HEIGHT / 16.0F, 0.5F);
@@ -164,7 +156,6 @@ public class HangingBannerRenderer implements BlockEntityRenderer<HangingBannerB
 		this.flagModel.root().getExtentsForGui(poseStack, output);
 	}
 
-	// The flag hangs well below its own block, so don't let section culling hide it.
 	@Override
 	public boolean shouldRenderOffScreen() {
 		return true;

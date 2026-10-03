@@ -11,20 +11,6 @@ import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.util.Mth;
 
-/**
- * Hanging banner, built like vanilla's hanging sign model.
- *
- * The Hanging Banner has Three "States" based on the Hanging Sign
- * - 0 = Two Chains holding + Bar: Used when hanging off the side of a Block (only in 4 Cardinal Directions)
- * - 1 = Two Chains holding: Used when hanging under a full Block (only in 4 Cardinal Directions)
- * - 2 = 1 Single Chain: Used when place under a Fence/Wall and Other Hanging Signs (Default minecraft Rotation)
- *
- * Coordinates are the vanilla hanging sign's (model y=0 is where the chains end, y=-6 the top of the block).
- * The layer is baked twice: this model draws only the flag (at banner scale, with the banner patterns), and
- * {@link HangingBannerChainsModel} draws the bar/chains (at scale 1, with the wood texture). 26.2 renders models
- * later from queued submits, so everything per-banner (the sway phase here, the state there) is the model's
- * render state rather than something set on the parts at submit time.
- */
 public class HangingBannerFlagModel extends Model<Float> {
 
 	public static final int BAR_WITH_CHAINS = 0;
@@ -39,7 +25,6 @@ public class HangingBannerFlagModel extends Model<Float> {
 	public static final String CHAINS = "chains";
 	public static final String V_CHAIN = "v_chain";
 
-	/** Pass as the phase to hang straight down with no sway (item form). */
 	public static final float STILL = -1.0F;
 
 	private final ModelPart flag;
@@ -71,7 +56,6 @@ public class HangingBannerFlagModel extends Model<Float> {
 		return LayerDefinition.create(meshDefinition, 64, 64);
 	}
 
-	/** Gentle sway, same motion as a vanilla banner's cloth; {@link #STILL} for none. */
 	@Override
 	public void setupAnim(Float phase) {
 		super.setupAnim(phase);
